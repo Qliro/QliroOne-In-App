@@ -2,6 +2,17 @@
 
 ## Installation
 
+### Gradle
+
+1. Add qliroone to your dependencies
+```groovy
+dependencies {
+  ...
+    implementation 'com.qliro:qliroone:1.0.1'
+  ...
+}
+```
+
 ### Manual
 
 1. Download the [latest release](https://github.com/Qliro-AB/QliroOne-In-App/releases/latest) and add it to your project.
