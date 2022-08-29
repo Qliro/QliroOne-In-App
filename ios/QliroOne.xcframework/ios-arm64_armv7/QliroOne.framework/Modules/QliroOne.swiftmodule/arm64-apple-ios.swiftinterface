@@ -1,0 +1,176 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QliroOne
+@_exported import QliroOne
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+@objc public class Address : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let firstName: Swift.String?
+  @objc final public let lastName: Swift.String?
+  @objc final public let street: Swift.String?
+  @objc final public let careOf: Swift.String?
+  @objc final public let city: Swift.String?
+  @objc final public let postalCode: Swift.String?
+  @objc final public let isMasked: Swift.Bool
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class PurchaseRedirectOptions : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let merchantConfirmationUrl: Swift.String
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class Customer : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let email: Swift.String?
+  @objc final public let mobileNumber: Swift.String?
+  @objc final public let address: QliroOne.Address?
+  @objc final public let personalNumber: Swift.String?
+  @objc final public let organizationNumber: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public enum Module : Swift.Int, Swift.RawRepresentable {
+  case HEADER
+  case TOTAL_PRICE
+  case CUSTOMER_DETAILS
+  case SHIPPING_METHOD
+  public typealias RawValue = Swift.String
+  public var rawValue: QliroOne.Module.RawValue {
+    get
+  }
+  public init?(rawValue: QliroOne.Module.RawValue)
+}
+@objc public class Order : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let totalPrice: Swift.Int
+  @objc final public let orderItems: [QliroOne.OrderItem]
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class OrderItem : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let merchantReference: Swift.String
+  @objc final public let pricePerItemIncVat: Swift.Int
+  @objc final public let quantity: Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class PaymentMethod : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let method: Swift.String?
+  @objc final public let subtype: Swift.String?
+  @objc final public let price: Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public protocol QliroOneActions {
+  func addSessionExpiredCallback()
+  func removeSessionExpiredCallback()
+  func lock()
+  func unlock()
+  func addOrderUpdateCallback()
+  func removeOrderUpdateCallback()
+  func enableCheckoutScrolling(enabled: Swift.Bool)
+  func excludeResultModules(modules: [QliroOne.Module])
+  func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class QliroOneCheckout : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public var qliroOneListener: QliroOne.QliroOneListener?
+  @objc @_Concurrency.MainActor(unsafe) final public let webView: QliroOne.QliroOneWebView
+  @objc @_Concurrency.MainActor(unsafe) public var isScrollEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}
+extension QliroOne.QliroOneCheckout : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+@objc extension QliroOne.QliroOneCheckout {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func loadOrderHtml(html: Swift.String)
+}
+@objc extension QliroOne.QliroOneCheckout : QliroOne.QliroOneActions {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func addSessionExpiredCallback()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func removeSessionExpiredCallback()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func addOrderUpdateCallback()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func removeOrderUpdateCallback()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func lock()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func unlock()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func enableCheckoutScrolling(enabled: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func excludeResultModules(modules: [Swift.String])
+  @nonobjc @_Concurrency.MainActor(unsafe) public func excludeResultModules(modules: [QliroOne.Module])
+}
+extension QliroOne.QliroOneCheckout : QliroOne.QliroOneListener {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onCheckoutHeightChanged(height: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onPaymentMethodChanged(paymentMethod: QliroOne.PaymentMethod)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onPaymentProcessStart()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onPaymentProcessEnd()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onSessionExpired()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onPaymentDeclined(declineReason: Swift.String, declineReasonMessage: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onShippingMethodChanged(shipping: QliroOne.Shipping)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onShippingPriceChanged(newShippingPrice: Swift.Int, newTotalShippingPrice: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onOrderUpdated(order: QliroOne.Order)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onCheckoutLoaded()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onCustomerInfoChanged(customer: QliroOne.Customer)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onCustomerDeauthenticating()
+}
+@objc public protocol QliroOneListener {
+  @objc func onCheckoutLoaded()
+  @objc func onCustomerInfoChanged(customer: QliroOne.Customer)
+  @objc func onCustomerDeauthenticating()
+  @objc func onPaymentMethodChanged(paymentMethod: QliroOne.PaymentMethod)
+  @objc func onPaymentDeclined(declineReason: Swift.String, declineReasonMessage: Swift.String)
+  @objc func onPaymentProcessStart()
+  @objc func onPaymentProcessEnd()
+  @objc func onSessionExpired()
+  @objc func onShippingMethodChanged(shipping: QliroOne.Shipping)
+  @objc func onShippingPriceChanged(newShippingPrice: Swift.Int, newTotalShippingPrice: Swift.Int)
+  @objc func onOrderUpdated(order: QliroOne.Order)
+  @objc func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
+  @objc func onCheckoutHeightChanged(height: Swift.Int)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class QliroOneWebView : WebKit.WKWebView {
+  @objc deinit
+}
+extension QliroOne.QliroOneWebView : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension QliroOne.QliroOneWebView {
+  @_Concurrency.MainActor(unsafe) public func loadSuccessUrl(url: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func loadOrderHtml(html: Swift.String)
+}
+extension QliroOne.QliroOneWebView : QliroOne.QliroOneActions {
+  @_Concurrency.MainActor(unsafe) public func addSessionExpiredCallback()
+  @_Concurrency.MainActor(unsafe) public func removeSessionExpiredCallback()
+  @_Concurrency.MainActor(unsafe) public func lock()
+  @_Concurrency.MainActor(unsafe) public func unlock()
+  @_Concurrency.MainActor(unsafe) public func addOrderUpdateCallback()
+  @_Concurrency.MainActor(unsafe) public func removeOrderUpdateCallback()
+  @_Concurrency.MainActor(unsafe) public func enableCheckoutScrolling(enabled: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func excludeResultModules(modules: [QliroOne.Module])
+  @_Concurrency.MainActor(unsafe) public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
+}
+extension QliroOne.QliroOneWebView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+}
+extension QliroOne.QliroOneWebView : WebKit.WKUIDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+}
+@objc public class Shipping : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let method: Swift.String?
+  @objc final public let secondaryOption: Swift.String?
+  @objc final public let price: Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+extension QliroOne.Module : Swift.Equatable {}
+extension QliroOne.Module : Swift.Hashable {}
