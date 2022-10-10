@@ -1567,14 +1567,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)Order(py)totalPrice",
-            "mangledName": "$s8QliroOne5OrderC10totalPriceSivp",
+            "mangledName": "$s8QliroOne5OrderC10totalPriceSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -1592,14 +1592,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)Order(im)totalPrice",
-                "mangledName": "$s8QliroOne5OrderC10totalPriceSivg",
+                "mangledName": "$s8QliroOne5OrderC10totalPriceSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -1872,14 +1872,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)OrderItem(py)pricePerItemIncVat",
-            "mangledName": "$s8QliroOne9OrderItemC08pricePerD6IncVatSivp",
+            "mangledName": "$s8QliroOne9OrderItemC08pricePerD6IncVatSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -1897,14 +1897,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)OrderItem(im)pricePerItemIncVat",
-                "mangledName": "$s8QliroOne9OrderItemC08pricePerD6IncVatSivg",
+                "mangledName": "$s8QliroOne9OrderItemC08pricePerD6IncVatSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -2243,14 +2243,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(py)price",
-            "mangledName": "$s8QliroOne13PaymentMethodC5priceSivp",
+            "mangledName": "$s8QliroOne13PaymentMethodC5priceSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -2268,14 +2268,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(im)price",
-                "mangledName": "$s8QliroOne13PaymentMethodC5priceSivg",
+                "mangledName": "$s8QliroOne13PaymentMethodC5priceSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -2293,14 +2293,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(py)priceExVat",
-            "mangledName": "$s8QliroOne13PaymentMethodC10priceExVatSivp",
+            "mangledName": "$s8QliroOne13PaymentMethodC10priceExVatSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -2318,14 +2318,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(im)priceExVat",
-                "mangledName": "$s8QliroOne13PaymentMethodC10priceExVatSivg",
+                "mangledName": "$s8QliroOne13PaymentMethodC10priceExVatSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -3617,20 +3617,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
             "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onShippingPriceChangedWithNewShippingPrice:newTotalShippingPrice:",
-            "mangledName": "$s8QliroOne0aB8CheckoutC22onShippingPriceChanged03neweF00h5TotaleF0ySi_SitF",
+            "mangledName": "$s8QliroOne0aB8CheckoutC22onShippingPriceChanged03neweF00h5TotaleF0ySd_SdtF",
             "moduleName": "QliroOne",
             "objc_name": "onShippingPriceChangedWithNewShippingPrice:newTotalShippingPrice:",
             "declAttributes": [
@@ -4163,20 +4163,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onShippingPriceChangedWithNewShippingPrice:newTotalShippingPrice:",
-            "mangledName": "$s8QliroOne0aB8ListenerP22onShippingPriceChanged03neweF00h5TotaleF0ySi_SitF",
+            "mangledName": "$s8QliroOne0aB8ListenerP22onShippingPriceChanged03neweF00h5TotaleF0ySd_SdtF",
             "moduleName": "QliroOne",
             "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
             "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
@@ -5063,14 +5063,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)Shipping(py)price",
-            "mangledName": "$s8QliroOne8ShippingC5priceSivp",
+            "mangledName": "$s8QliroOne8ShippingC5priceSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -5088,14 +5088,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)Shipping(im)price",
-                "mangledName": "$s8QliroOne8ShippingC5priceSivg",
+                "mangledName": "$s8QliroOne8ShippingC5priceSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -5113,14 +5113,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)Shipping(py)priceExVat",
-            "mangledName": "$s8QliroOne8ShippingC10priceExVatSivp",
+            "mangledName": "$s8QliroOne8ShippingC10priceExVatSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -5138,14 +5138,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)Shipping(im)priceExVat",
-                "mangledName": "$s8QliroOne8ShippingC10priceExVatSivg",
+                "mangledName": "$s8QliroOne8ShippingC10priceExVatSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -5163,14 +5163,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)Shipping(py)totalShippingPrice",
-            "mangledName": "$s8QliroOne8ShippingC05totalC5PriceSivp",
+            "mangledName": "$s8QliroOne8ShippingC05totalC5PriceSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -5188,14 +5188,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)Shipping(im)totalShippingPrice",
-                "mangledName": "$s8QliroOne8ShippingC05totalC5PriceSivg",
+                "mangledName": "$s8QliroOne8ShippingC05totalC5PriceSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [
@@ -5213,14 +5213,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@QliroOne@objc(cs)Shipping(py)totalShippingPriceExVat",
-            "mangledName": "$s8QliroOne8ShippingC05totalC10PriceExVatSivp",
+            "mangledName": "$s8QliroOne8ShippingC05totalC10PriceExVatSdvp",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Final",
@@ -5238,14 +5238,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@QliroOne@objc(cs)Shipping(im)totalShippingPriceExVat",
-                "mangledName": "$s8QliroOne8ShippingC05totalC10PriceExVatSivg",
+                "mangledName": "$s8QliroOne8ShippingC05totalC10PriceExVatSdvg",
                 "moduleName": "QliroOne",
                 "implicit": true,
                 "declAttributes": [

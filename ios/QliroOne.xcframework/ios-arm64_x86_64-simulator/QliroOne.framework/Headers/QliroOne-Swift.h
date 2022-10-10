@@ -293,7 +293,7 @@ typedef SWIFT_ENUM(NSInteger, Module, open) {
 
 SWIFT_CLASS("_TtC8QliroOne5Order")
 @interface Order : NSObject
-@property (nonatomic, readonly) NSInteger totalPrice;
+@property (nonatomic, readonly) double totalPrice;
 @property (nonatomic, readonly, copy) NSArray<OrderItem *> * _Nonnull orderItems;
 @end
 
@@ -301,7 +301,7 @@ SWIFT_CLASS("_TtC8QliroOne5Order")
 SWIFT_CLASS("_TtC8QliroOne9OrderItem")
 @interface OrderItem : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull merchantReference;
-@property (nonatomic, readonly) NSInteger pricePerItemIncVat;
+@property (nonatomic, readonly) double pricePerItemIncVat;
 @property (nonatomic, readonly) NSInteger quantity;
 @end
 
@@ -310,8 +310,8 @@ SWIFT_CLASS("_TtC8QliroOne13PaymentMethod")
 @interface PaymentMethod : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nullable method;
 @property (nonatomic, readonly, copy) NSString * _Nullable subtype;
-@property (nonatomic, readonly) NSInteger price;
-@property (nonatomic, readonly) NSInteger priceExVat;
+@property (nonatomic, readonly) double price;
+@property (nonatomic, readonly) double priceExVat;
 @end
 
 
@@ -407,7 +407,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 ///
 /// \param newTotalShippingPrice - The updated total price 
 ///
-- (void)onShippingPriceChangedWithNewShippingPrice:(NSInteger)newShippingPrice newTotalShippingPrice:(NSInteger)newTotalShippingPrice;
+- (void)onShippingPriceChangedWithNewShippingPrice:(double)newShippingPrice newTotalShippingPrice:(double)newTotalShippingPrice;
 /// Called when Qliro One has synced its orders.
 /// This might be called multiple times and should return true when
 /// the Qliro One and the app is in sync. Returning true will unlock the Checkout.
@@ -435,7 +435,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 - (void)onSessionExpired;
 - (void)onPaymentDeclinedWithDeclineReason:(NSString * _Nonnull)declineReason declineReasonMessage:(NSString * _Nullable)declineReasonMessage;
 - (void)onShippingMethodChangedWithShipping:(Shipping * _Nonnull)shipping;
-- (void)onShippingPriceChangedWithNewShippingPrice:(NSInteger)newShippingPrice newTotalShippingPrice:(NSInteger)newTotalShippingPrice;
+- (void)onShippingPriceChangedWithNewShippingPrice:(double)newShippingPrice newTotalShippingPrice:(double)newTotalShippingPrice;
 - (void)onOrderUpdatedWithOrder:(Order * _Nonnull)order;
 - (void)onCheckoutLoaded;
 - (void)onCustomerInfoChangedWithCustomer:(Customer * _Nonnull)customer;
@@ -480,10 +480,10 @@ SWIFT_CLASS("_TtC8QliroOne8Shipping")
 @property (nonatomic, readonly, copy) NSString * _Nullable method;
 @property (nonatomic, readonly, copy) NSString * _Nullable secondaryOption;
 @property (nonatomic, readonly, copy) NSArray<NSString *> * _Nullable additionalShippingServices;
-@property (nonatomic, readonly) NSInteger price;
-@property (nonatomic, readonly) NSInteger priceExVat;
-@property (nonatomic, readonly) NSInteger totalShippingPrice;
-@property (nonatomic, readonly) NSInteger totalShippingPriceExVat;
+@property (nonatomic, readonly) double price;
+@property (nonatomic, readonly) double priceExVat;
+@property (nonatomic, readonly) double totalShippingPrice;
+@property (nonatomic, readonly) double totalShippingPriceExVat;
 @end
 
 #endif
@@ -789,7 +789,7 @@ typedef SWIFT_ENUM(NSInteger, Module, open) {
 
 SWIFT_CLASS("_TtC8QliroOne5Order")
 @interface Order : NSObject
-@property (nonatomic, readonly) NSInteger totalPrice;
+@property (nonatomic, readonly) double totalPrice;
 @property (nonatomic, readonly, copy) NSArray<OrderItem *> * _Nonnull orderItems;
 @end
 
@@ -797,7 +797,7 @@ SWIFT_CLASS("_TtC8QliroOne5Order")
 SWIFT_CLASS("_TtC8QliroOne9OrderItem")
 @interface OrderItem : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull merchantReference;
-@property (nonatomic, readonly) NSInteger pricePerItemIncVat;
+@property (nonatomic, readonly) double pricePerItemIncVat;
 @property (nonatomic, readonly) NSInteger quantity;
 @end
 
@@ -806,8 +806,8 @@ SWIFT_CLASS("_TtC8QliroOne13PaymentMethod")
 @interface PaymentMethod : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nullable method;
 @property (nonatomic, readonly, copy) NSString * _Nullable subtype;
-@property (nonatomic, readonly) NSInteger price;
-@property (nonatomic, readonly) NSInteger priceExVat;
+@property (nonatomic, readonly) double price;
+@property (nonatomic, readonly) double priceExVat;
 @end
 
 
@@ -903,7 +903,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 ///
 /// \param newTotalShippingPrice - The updated total price 
 ///
-- (void)onShippingPriceChangedWithNewShippingPrice:(NSInteger)newShippingPrice newTotalShippingPrice:(NSInteger)newTotalShippingPrice;
+- (void)onShippingPriceChangedWithNewShippingPrice:(double)newShippingPrice newTotalShippingPrice:(double)newTotalShippingPrice;
 /// Called when Qliro One has synced its orders.
 /// This might be called multiple times and should return true when
 /// the Qliro One and the app is in sync. Returning true will unlock the Checkout.
@@ -931,7 +931,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 - (void)onSessionExpired;
 - (void)onPaymentDeclinedWithDeclineReason:(NSString * _Nonnull)declineReason declineReasonMessage:(NSString * _Nullable)declineReasonMessage;
 - (void)onShippingMethodChangedWithShipping:(Shipping * _Nonnull)shipping;
-- (void)onShippingPriceChangedWithNewShippingPrice:(NSInteger)newShippingPrice newTotalShippingPrice:(NSInteger)newTotalShippingPrice;
+- (void)onShippingPriceChangedWithNewShippingPrice:(double)newShippingPrice newTotalShippingPrice:(double)newTotalShippingPrice;
 - (void)onOrderUpdatedWithOrder:(Order * _Nonnull)order;
 - (void)onCheckoutLoaded;
 - (void)onCustomerInfoChangedWithCustomer:(Customer * _Nonnull)customer;
@@ -976,10 +976,10 @@ SWIFT_CLASS("_TtC8QliroOne8Shipping")
 @property (nonatomic, readonly, copy) NSString * _Nullable method;
 @property (nonatomic, readonly, copy) NSString * _Nullable secondaryOption;
 @property (nonatomic, readonly, copy) NSArray<NSString *> * _Nullable additionalShippingServices;
-@property (nonatomic, readonly) NSInteger price;
-@property (nonatomic, readonly) NSInteger priceExVat;
-@property (nonatomic, readonly) NSInteger totalShippingPrice;
-@property (nonatomic, readonly) NSInteger totalShippingPriceExVat;
+@property (nonatomic, readonly) double price;
+@property (nonatomic, readonly) double priceExVat;
+@property (nonatomic, readonly) double totalShippingPrice;
+@property (nonatomic, readonly) double totalShippingPriceExVat;
 @end
 
 #endif
