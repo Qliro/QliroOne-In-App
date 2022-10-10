@@ -1,0 +1,5440 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Address",
+        "printedName": "Address",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)firstName",
+            "mangledName": "$s8QliroOne7AddressC9firstNameSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)firstName",
+                "mangledName": "$s8QliroOne7AddressC9firstNameSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)lastName",
+            "mangledName": "$s8QliroOne7AddressC8lastNameSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)lastName",
+                "mangledName": "$s8QliroOne7AddressC8lastNameSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "street",
+            "printedName": "street",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)street",
+            "mangledName": "$s8QliroOne7AddressC6streetSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)street",
+                "mangledName": "$s8QliroOne7AddressC6streetSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "careOf",
+            "printedName": "careOf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)careOf",
+            "mangledName": "$s8QliroOne7AddressC6careOfSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)careOf",
+                "mangledName": "$s8QliroOne7AddressC6careOfSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)city",
+            "mangledName": "$s8QliroOne7AddressC4citySSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)city",
+                "mangledName": "$s8QliroOne7AddressC4citySSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postalCode",
+            "printedName": "postalCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)postalCode",
+            "mangledName": "$s8QliroOne7AddressC10postalCodeSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)postalCode",
+                "mangledName": "$s8QliroOne7AddressC10postalCodeSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isMasked",
+            "printedName": "isMasked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Address(py)isMasked",
+            "mangledName": "$s8QliroOne7AddressC8isMaskedSbvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Address(im)isMasked",
+                "mangledName": "$s8QliroOne7AddressC8isMaskedSbvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Address",
+                "printedName": "QliroOne.Address",
+                "usr": "c:@M@QliroOne@objc(cs)Address"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne7AddressC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne7AddressC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne7AddressC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne7AddressC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)Address",
+        "mangledName": "$s8QliroOne7AddressC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PurchaseRedirectOptions",
+        "printedName": "PurchaseRedirectOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "merchantConfirmationUrl",
+            "printedName": "merchantConfirmationUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)PurchaseRedirectOptions(py)merchantConfirmationUrl",
+            "mangledName": "$s8QliroOne23PurchaseRedirectOptionsC23merchantConfirmationUrlSSvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)PurchaseRedirectOptions(im)merchantConfirmationUrl",
+                "mangledName": "$s8QliroOne23PurchaseRedirectOptionsC23merchantConfirmationUrlSSvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PurchaseRedirectOptions",
+                "printedName": "QliroOne.PurchaseRedirectOptions",
+                "usr": "c:@M@QliroOne@objc(cs)PurchaseRedirectOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne23PurchaseRedirectOptionsC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne23PurchaseRedirectOptionsC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne23PurchaseRedirectOptionsC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne23PurchaseRedirectOptionsC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)PurchaseRedirectOptions",
+        "mangledName": "$s8QliroOne23PurchaseRedirectOptionsC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Customer",
+        "printedName": "Customer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Customer(py)email",
+            "mangledName": "$s8QliroOne8CustomerC5emailSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Customer(im)email",
+                "mangledName": "$s8QliroOne8CustomerC5emailSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileNumber",
+            "printedName": "mobileNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Customer(py)mobileNumber",
+            "mangledName": "$s8QliroOne8CustomerC12mobileNumberSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Customer(im)mobileNumber",
+                "mangledName": "$s8QliroOne8CustomerC12mobileNumberSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QliroOne.Address?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Address",
+                    "printedName": "QliroOne.Address",
+                    "usr": "c:@M@QliroOne@objc(cs)Address"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Customer(py)address",
+            "mangledName": "$s8QliroOne8CustomerC7addressAA7AddressCSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QliroOne.Address?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Address",
+                        "printedName": "QliroOne.Address",
+                        "usr": "c:@M@QliroOne@objc(cs)Address"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Customer(im)address",
+                "mangledName": "$s8QliroOne8CustomerC7addressAA7AddressCSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "personalNumber",
+            "printedName": "personalNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Customer(py)personalNumber",
+            "mangledName": "$s8QliroOne8CustomerC14personalNumberSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Customer(im)personalNumber",
+                "mangledName": "$s8QliroOne8CustomerC14personalNumberSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "organizationNumber",
+            "printedName": "organizationNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Customer(py)organizationNumber",
+            "mangledName": "$s8QliroOne8CustomerC18organizationNumberSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Customer(im)organizationNumber",
+                "mangledName": "$s8QliroOne8CustomerC18organizationNumberSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "QliroOne.Customer",
+                "usr": "c:@M@QliroOne@objc(cs)Customer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne8CustomerC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne8CustomerC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne8CustomerC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne8CustomerC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)Customer",
+        "mangledName": "$s8QliroOne8CustomerC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Module",
+        "printedName": "Module",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "HEADER",
+            "printedName": "HEADER",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.Module.Type) -> QliroOne.Module",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.Module.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Module",
+                        "printedName": "QliroOne.Module",
+                        "usr": "c:@M@QliroOne@E@Module"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@Module@ModuleHEADER",
+            "mangledName": "$s8QliroOne6ModuleO6HEADERyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "TOTAL_PRICE",
+            "printedName": "TOTAL_PRICE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.Module.Type) -> QliroOne.Module",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.Module.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Module",
+                        "printedName": "QliroOne.Module",
+                        "usr": "c:@M@QliroOne@E@Module"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@Module@ModuleTOTAL_PRICE",
+            "mangledName": "$s8QliroOne6ModuleO11TOTAL_PRICEyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "CUSTOMER_DETAILS",
+            "printedName": "CUSTOMER_DETAILS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.Module.Type) -> QliroOne.Module",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.Module.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Module",
+                        "printedName": "QliroOne.Module",
+                        "usr": "c:@M@QliroOne@E@Module"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@Module@ModuleCUSTOMER_DETAILS",
+            "mangledName": "$s8QliroOne6ModuleO16CUSTOMER_DETAILSyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "SHIPPING_METHOD",
+            "printedName": "SHIPPING_METHOD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.Module.Type) -> QliroOne.Module",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.Module.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Module",
+                        "printedName": "QliroOne.Module",
+                        "usr": "c:@M@QliroOne@E@Module"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@Module@ModuleSHIPPING_METHOD",
+            "mangledName": "$s8QliroOne6ModuleO15SHIPPING_METHODyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QliroOne6ModuleO8rawValueSSvp",
+            "mangledName": "$s8QliroOne6ModuleO8rawValueSSvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne6ModuleO8rawValueSSvg",
+                "mangledName": "$s8QliroOne6ModuleO8rawValueSSvg",
+                "moduleName": "QliroOne",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QliroOne.Module?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne6ModuleO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8QliroOne6ModuleO8rawValueACSgSS_tcfc",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@QliroOne@E@Module",
+        "mangledName": "$s8QliroOne6ModuleO",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Order",
+        "printedName": "Order",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "totalPrice",
+            "printedName": "totalPrice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Order(py)totalPrice",
+            "mangledName": "$s8QliroOne5OrderC10totalPriceSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Order(im)totalPrice",
+                "mangledName": "$s8QliroOne5OrderC10totalPriceSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orderItems",
+            "printedName": "orderItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QliroOne.OrderItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderItem",
+                    "printedName": "QliroOne.OrderItem",
+                    "usr": "c:@M@QliroOne@objc(cs)OrderItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Order(py)orderItems",
+            "mangledName": "$s8QliroOne5OrderC10orderItemsSayAA0C4ItemCGvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QliroOne.OrderItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrderItem",
+                        "printedName": "QliroOne.OrderItem",
+                        "usr": "c:@M@QliroOne@objc(cs)OrderItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Order(im)orderItems",
+                "mangledName": "$s8QliroOne5OrderC10orderItemsSayAA0C4ItemCGvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Order",
+                "printedName": "QliroOne.Order",
+                "usr": "c:@M@QliroOne@objc(cs)Order"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne5OrderC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne5OrderC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne5OrderC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne5OrderC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)Order",
+        "mangledName": "$s8QliroOne5OrderC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OrderItem",
+        "printedName": "OrderItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "merchantReference",
+            "printedName": "merchantReference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)OrderItem(py)merchantReference",
+            "mangledName": "$s8QliroOne9OrderItemC17merchantReferenceSSvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)OrderItem(im)merchantReference",
+                "mangledName": "$s8QliroOne9OrderItemC17merchantReferenceSSvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pricePerItemIncVat",
+            "printedName": "pricePerItemIncVat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)OrderItem(py)pricePerItemIncVat",
+            "mangledName": "$s8QliroOne9OrderItemC08pricePerD6IncVatSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)OrderItem(im)pricePerItemIncVat",
+                "mangledName": "$s8QliroOne9OrderItemC08pricePerD6IncVatSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quantity",
+            "printedName": "quantity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)OrderItem(py)quantity",
+            "mangledName": "$s8QliroOne9OrderItemC8quantitySivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)OrderItem(im)quantity",
+                "mangledName": "$s8QliroOne9OrderItemC8quantitySivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrderItem",
+                "printedName": "QliroOne.OrderItem",
+                "usr": "c:@M@QliroOne@objc(cs)OrderItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne9OrderItemC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne9OrderItemC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne9OrderItemC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne9OrderItemC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)OrderItem",
+        "mangledName": "$s8QliroOne9OrderItemC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentMethod",
+        "printedName": "PaymentMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(py)method",
+            "mangledName": "$s8QliroOne13PaymentMethodC6methodSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(im)method",
+                "mangledName": "$s8QliroOne13PaymentMethodC6methodSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subtype",
+            "printedName": "subtype",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(py)subtype",
+            "mangledName": "$s8QliroOne13PaymentMethodC7subtypeSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(im)subtype",
+                "mangledName": "$s8QliroOne13PaymentMethodC7subtypeSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(py)price",
+            "mangledName": "$s8QliroOne13PaymentMethodC5priceSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(im)price",
+                "mangledName": "$s8QliroOne13PaymentMethodC5priceSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "priceExVat",
+            "printedName": "priceExVat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(py)priceExVat",
+            "mangledName": "$s8QliroOne13PaymentMethodC10priceExVatSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod(im)priceExVat",
+                "mangledName": "$s8QliroOne13PaymentMethodC10priceExVatSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethod",
+                "printedName": "QliroOne.PaymentMethod",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne13PaymentMethodC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne13PaymentMethodC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne13PaymentMethodC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne13PaymentMethodC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)PaymentMethod",
+        "mangledName": "$s8QliroOne13PaymentMethodC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QliroOneActions",
+        "printedName": "QliroOneActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addSessionExpiredCallback",
+            "printedName": "addSessionExpiredCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP25addSessionExpiredCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP25addSessionExpiredCallbackyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeSessionExpiredCallback",
+            "printedName": "removeSessionExpiredCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP28removeSessionExpiredCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP28removeSessionExpiredCallbackyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lock",
+            "printedName": "lock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP4lockyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP4lockyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlock",
+            "printedName": "unlock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP6unlockyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP6unlockyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addOrderUpdateCallback",
+            "printedName": "addOrderUpdateCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP22addOrderUpdateCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP22addOrderUpdateCallbackyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeOrderUpdateCallback",
+            "printedName": "removeOrderUpdateCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP25removeOrderUpdateCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP25removeOrderUpdateCallbackyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableCheckoutScrolling",
+            "printedName": "enableCheckoutScrolling(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP23enableCheckoutScrolling7enabledySb_tF",
+            "mangledName": "$s8QliroOne0aB7ActionsP23enableCheckoutScrolling7enabledySb_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "excludeResultModules",
+            "printedName": "excludeResultModules(modules:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QliroOne.Module]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP20excludeResultModules7modulesySayAA6ModuleOG_tF",
+            "mangledName": "$s8QliroOne0aB7ActionsP20excludeResultModules7modulesySayAA6ModuleOG_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScroll",
+            "printedName": "onScroll(containerHeight:offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP8onScroll15containerHeight6offsetySi_SitF",
+            "mangledName": "$s8QliroOne0aB7ActionsP8onScroll15containerHeight6offsetySi_SitF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8QliroOne0aB7ActionsP",
+        "mangledName": "$s8QliroOne0aB7ActionsP",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "QliroOne"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QliroOneCheckout",
+        "printedName": "QliroOneCheckout",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "qliroOneListener",
+            "printedName": "qliroOneListener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QliroOne.QliroOneListener?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QliroOneListener",
+                    "printedName": "QliroOne.QliroOneListener",
+                    "usr": "c:@M@QliroOne@objc(pl)QliroOneListener"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(py)qliroOneListener",
+            "mangledName": "$s8QliroOne0aB8CheckoutC05qliroB8ListenerAA0abE0_pSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QliroOne.QliroOneListener?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QliroOneListener",
+                        "printedName": "QliroOne.QliroOneListener",
+                        "usr": "c:@M@QliroOne@objc(pl)QliroOneListener"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)qliroOneListener",
+                "mangledName": "$s8QliroOne0aB8CheckoutC05qliroB8ListenerAA0abE0_pSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QliroOne.QliroOneListener?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QliroOneListener",
+                        "printedName": "QliroOne.QliroOneListener",
+                        "usr": "c:@M@QliroOne@objc(pl)QliroOneListener"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)setQliroOneListener:",
+                "mangledName": "$s8QliroOne0aB8CheckoutC05qliroB8ListenerAA0abE0_pSgvs",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne0aB8CheckoutC05qliroB8ListenerAA0abE0_pSgvM",
+                "mangledName": "$s8QliroOne0aB8CheckoutC05qliroB8ListenerAA0abE0_pSgvM",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webView",
+            "printedName": "webView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QliroOneWebView",
+                "printedName": "QliroOne.QliroOneWebView",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneWebView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(py)webView",
+            "mangledName": "$s8QliroOne0aB8CheckoutC7webViewAA0ab3WebE0Cvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QliroOneWebView",
+                    "printedName": "QliroOne.QliroOneWebView",
+                    "usr": "c:@M@QliroOne@objc(cs)QliroOneWebView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)webView",
+                "mangledName": "$s8QliroOne0aB8CheckoutC7webViewAA0ab3WebE0Cvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isScrollEnabled",
+            "printedName": "isScrollEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(py)isScrollEnabled",
+            "mangledName": "$s8QliroOne0aB8CheckoutC15isScrollEnabledSbvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)isScrollEnabled",
+                "mangledName": "$s8QliroOne0aB8CheckoutC15isScrollEnabledSbvg",
+                "moduleName": "QliroOne",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)setIsScrollEnabled:",
+                "mangledName": "$s8QliroOne0aB8CheckoutC15isScrollEnabledSbvs",
+                "moduleName": "QliroOne",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne0aB8CheckoutC15isScrollEnabledSbvM",
+                "mangledName": "$s8QliroOne0aB8CheckoutC15isScrollEnabledSbvM",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QliroOneCheckout",
+                "printedName": "QliroOne.QliroOneCheckout",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)initWithFrame:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC5frameACSo6CGRectV_tcfc",
+            "moduleName": "QliroOne",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidScroll",
+            "printedName": "scrollViewDidScroll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)scrollViewDidScroll:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC19scrollViewDidScrollyySo08UIScrollE0CF",
+            "moduleName": "QliroOne",
+            "objc_name": "scrollViewDidScroll:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadOrderHtml",
+            "printedName": "loadOrderHtml(html:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)loadOrderHtmlWithHtml:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC13loadOrderHtml4htmlySS_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScroll",
+            "printedName": "onScroll(containerHeight:offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onScrollWithContainerHeight:offset:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC8onScroll15containerHeight6offsetySi_SitF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addSessionExpiredCallback",
+            "printedName": "addSessionExpiredCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)addSessionExpiredCallback",
+            "mangledName": "$s8QliroOne0aB8CheckoutC25addSessionExpiredCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeSessionExpiredCallback",
+            "printedName": "removeSessionExpiredCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)removeSessionExpiredCallback",
+            "mangledName": "$s8QliroOne0aB8CheckoutC28removeSessionExpiredCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addOrderUpdateCallback",
+            "printedName": "addOrderUpdateCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)addOrderUpdateCallback",
+            "mangledName": "$s8QliroOne0aB8CheckoutC22addOrderUpdateCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeOrderUpdateCallback",
+            "printedName": "removeOrderUpdateCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)removeOrderUpdateCallback",
+            "mangledName": "$s8QliroOne0aB8CheckoutC25removeOrderUpdateCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lock",
+            "printedName": "lock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)lock",
+            "mangledName": "$s8QliroOne0aB8CheckoutC4lockyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlock",
+            "printedName": "unlock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)unlock",
+            "mangledName": "$s8QliroOne0aB8CheckoutC6unlockyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableCheckoutScrolling",
+            "printedName": "enableCheckoutScrolling(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)enableCheckoutScrollingWithEnabled:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC06enableC9Scrolling7enabledySb_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "excludeResultModules",
+            "printedName": "excludeResultModules(modules:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)excludeResultModulesWithModules:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC20excludeResultModules7modulesySaySSG_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "excludeResultModules",
+            "printedName": "excludeResultModules(modules:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QliroOne.Module]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB8CheckoutC20excludeResultModules7modulesySayAA6ModuleOG_tF",
+            "mangledName": "$s8QliroOne0aB8CheckoutC20excludeResultModules7modulesySayAA6ModuleOG_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCheckoutHeightChanged",
+            "printedName": "onCheckoutHeightChanged(height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onCheckoutHeightChangedWithHeight:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC02onC13HeightChanged6heightySi_tF",
+            "moduleName": "QliroOne",
+            "objc_name": "onCheckoutHeightChangedWithHeight:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentMethodChanged",
+            "printedName": "onPaymentMethodChanged(paymentMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethod",
+                "printedName": "QliroOne.PaymentMethod",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onPaymentMethodChangedWithPaymentMethod:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC22onPaymentMethodChanged07paymentF0yAA0eF0C_tF",
+            "moduleName": "QliroOne",
+            "objc_name": "onPaymentMethodChangedWithPaymentMethod:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentProcessStart",
+            "printedName": "onPaymentProcessStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onPaymentProcessStart",
+            "mangledName": "$s8QliroOne0aB8CheckoutC21onPaymentProcessStartyyF",
+            "moduleName": "QliroOne",
+            "objc_name": "onPaymentProcessStart",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentProcessEnd",
+            "printedName": "onPaymentProcessEnd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onPaymentProcessEnd",
+            "mangledName": "$s8QliroOne0aB8CheckoutC19onPaymentProcessEndyyF",
+            "moduleName": "QliroOne",
+            "objc_name": "onPaymentProcessEnd",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionExpired",
+            "printedName": "onSessionExpired()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onSessionExpired",
+            "mangledName": "$s8QliroOne0aB8CheckoutC16onSessionExpiredyyF",
+            "moduleName": "QliroOne",
+            "objc_name": "onSessionExpired",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentDeclined",
+            "printedName": "onPaymentDeclined(declineReason:declineReasonMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onPaymentDeclinedWithDeclineReason:declineReasonMessage:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC17onPaymentDeclined13declineReason0gH7MessageySS_SSSgtF",
+            "moduleName": "QliroOne",
+            "objc_name": "onPaymentDeclinedWithDeclineReason:declineReasonMessage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShippingMethodChanged",
+            "printedName": "onShippingMethodChanged(shipping:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Shipping",
+                "printedName": "QliroOne.Shipping",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onShippingMethodChangedWithShipping:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC23onShippingMethodChanged8shippingyAA0E0C_tF",
+            "moduleName": "QliroOne",
+            "objc_name": "onShippingMethodChangedWithShipping:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShippingPriceChanged",
+            "printedName": "onShippingPriceChanged(newShippingPrice:newTotalShippingPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onShippingPriceChangedWithNewShippingPrice:newTotalShippingPrice:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC22onShippingPriceChanged03neweF00h5TotaleF0ySi_SitF",
+            "moduleName": "QliroOne",
+            "objc_name": "onShippingPriceChangedWithNewShippingPrice:newTotalShippingPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onOrderUpdated",
+            "printedName": "onOrderUpdated(order:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Order",
+                "printedName": "QliroOne.Order",
+                "usr": "c:@M@QliroOne@objc(cs)Order"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onOrderUpdatedWithOrder:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC14onOrderUpdated5orderyAA0E0C_tF",
+            "moduleName": "QliroOne",
+            "objc_name": "onOrderUpdatedWithOrder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCheckoutLoaded",
+            "printedName": "onCheckoutLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onCheckoutLoaded",
+            "mangledName": "$s8QliroOne0aB8CheckoutC02onC6LoadedyyF",
+            "moduleName": "QliroOne",
+            "objc_name": "onCheckoutLoaded",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCustomerInfoChanged",
+            "printedName": "onCustomerInfoChanged(customer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "QliroOne.Customer",
+                "usr": "c:@M@QliroOne@objc(cs)Customer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onCustomerInfoChangedWithCustomer:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC21onCustomerInfoChanged8customeryAA0E0C_tF",
+            "moduleName": "QliroOne",
+            "objc_name": "onCustomerInfoChangedWithCustomer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompletePurchaseRedirect",
+            "printedName": "onCompletePurchaseRedirect(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PurchaseRedirectOptions",
+                "printedName": "QliroOne.PurchaseRedirectOptions",
+                "usr": "c:@M@QliroOne@objc(cs)PurchaseRedirectOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onCompletePurchaseRedirectWithOptions:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC26onCompletePurchaseRedirect7optionsyAA0fG7OptionsC_tF",
+            "moduleName": "QliroOne",
+            "objc_name": "onCompletePurchaseRedirectWithOptions:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCustomerDeauthenticating",
+            "printedName": "onCustomerDeauthenticating()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onCustomerDeauthenticating",
+            "mangledName": "$s8QliroOne0aB8CheckoutC26onCustomerDeauthenticatingyyF",
+            "moduleName": "QliroOne",
+            "objc_name": "onCustomerDeauthenticating",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout",
+        "mangledName": "$s8QliroOne0aB8CheckoutC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "QliroOneActions",
+            "printedName": "QliroOneActions",
+            "usr": "s:8QliroOne0aB7ActionsP",
+            "mangledName": "$s8QliroOne0aB7ActionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "QliroOneListener",
+            "printedName": "QliroOneListener",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener",
+            "mangledName": "$s8QliroOne0aB8ListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QliroOneListener",
+        "printedName": "QliroOneListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCheckoutLoaded",
+            "printedName": "onCheckoutLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onCheckoutLoaded",
+            "mangledName": "$s8QliroOne0aB8ListenerP16onCheckoutLoadedyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCustomerInfoChanged",
+            "printedName": "onCustomerInfoChanged(customer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "QliroOne.Customer",
+                "usr": "c:@M@QliroOne@objc(cs)Customer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onCustomerInfoChangedWithCustomer:",
+            "mangledName": "$s8QliroOne0aB8ListenerP21onCustomerInfoChanged8customeryAA0E0C_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCustomerDeauthenticating",
+            "printedName": "onCustomerDeauthenticating()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onCustomerDeauthenticating",
+            "mangledName": "$s8QliroOne0aB8ListenerP26onCustomerDeauthenticatingyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentMethodChanged",
+            "printedName": "onPaymentMethodChanged(paymentMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethod",
+                "printedName": "QliroOne.PaymentMethod",
+                "usr": "c:@M@QliroOne@objc(cs)PaymentMethod"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onPaymentMethodChangedWithPaymentMethod:",
+            "mangledName": "$s8QliroOne0aB8ListenerP22onPaymentMethodChanged07paymentF0yAA0eF0C_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentDeclined",
+            "printedName": "onPaymentDeclined(declineReason:declineReasonMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onPaymentDeclinedWithDeclineReason:declineReasonMessage:",
+            "mangledName": "$s8QliroOne0aB8ListenerP17onPaymentDeclined13declineReason0gH7MessageySS_SSSgtF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentProcessStart",
+            "printedName": "onPaymentProcessStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onPaymentProcessStart",
+            "mangledName": "$s8QliroOne0aB8ListenerP21onPaymentProcessStartyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentProcessEnd",
+            "printedName": "onPaymentProcessEnd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onPaymentProcessEnd",
+            "mangledName": "$s8QliroOne0aB8ListenerP19onPaymentProcessEndyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionExpired",
+            "printedName": "onSessionExpired()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onSessionExpired",
+            "mangledName": "$s8QliroOne0aB8ListenerP16onSessionExpiredyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShippingMethodChanged",
+            "printedName": "onShippingMethodChanged(shipping:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Shipping",
+                "printedName": "QliroOne.Shipping",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onShippingMethodChangedWithShipping:",
+            "mangledName": "$s8QliroOne0aB8ListenerP23onShippingMethodChanged8shippingyAA0E0C_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShippingPriceChanged",
+            "printedName": "onShippingPriceChanged(newShippingPrice:newTotalShippingPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onShippingPriceChangedWithNewShippingPrice:newTotalShippingPrice:",
+            "mangledName": "$s8QliroOne0aB8ListenerP22onShippingPriceChanged03neweF00h5TotaleF0ySi_SitF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onOrderUpdated",
+            "printedName": "onOrderUpdated(order:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Order",
+                "printedName": "QliroOne.Order",
+                "usr": "c:@M@QliroOne@objc(cs)Order"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onOrderUpdatedWithOrder:",
+            "mangledName": "$s8QliroOne0aB8ListenerP14onOrderUpdated5orderyAA0E0C_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompletePurchaseRedirect",
+            "printedName": "onCompletePurchaseRedirect(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PurchaseRedirectOptions",
+                "printedName": "QliroOne.PurchaseRedirectOptions",
+                "usr": "c:@M@QliroOne@objc(cs)PurchaseRedirectOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onCompletePurchaseRedirectWithOptions:",
+            "mangledName": "$s8QliroOne0aB8ListenerP26onCompletePurchaseRedirect7optionsyAA0fG7OptionsC_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCheckoutHeightChanged",
+            "printedName": "onCheckoutHeightChanged(height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onCheckoutHeightChangedWithHeight:",
+            "mangledName": "$s8QliroOne0aB8ListenerP23onCheckoutHeightChanged6heightySi_tF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@QliroOne@objc(pl)QliroOneListener",
+        "mangledName": "$s8QliroOne0aB8ListenerP",
+        "moduleName": "QliroOne",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QliroOneWebView",
+        "printedName": "QliroOneWebView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneWebView(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s8QliroOne0aB7WebViewC21userContentController_10didReceiveySo06WKUserfG0C_So15WKScriptMessageCtF",
+            "moduleName": "QliroOne",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadSuccessUrl",
+            "printedName": "loadSuccessUrl(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC14loadSuccessUrl3urlySS_tF",
+            "mangledName": "$s8QliroOne0aB7WebViewC14loadSuccessUrl3urlySS_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadOrderHtml",
+            "printedName": "loadOrderHtml(html:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC13loadOrderHtml4htmlySS_tF",
+            "mangledName": "$s8QliroOne0aB7WebViewC13loadOrderHtml4htmlySS_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addSessionExpiredCallback",
+            "printedName": "addSessionExpiredCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC25addSessionExpiredCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC25addSessionExpiredCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeSessionExpiredCallback",
+            "printedName": "removeSessionExpiredCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC28removeSessionExpiredCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC28removeSessionExpiredCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lock",
+            "printedName": "lock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC4lockyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC4lockyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlock",
+            "printedName": "unlock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC6unlockyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC6unlockyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addOrderUpdateCallback",
+            "printedName": "addOrderUpdateCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC22addOrderUpdateCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC22addOrderUpdateCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeOrderUpdateCallback",
+            "printedName": "removeOrderUpdateCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC25removeOrderUpdateCallbackyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC25removeOrderUpdateCallbackyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableCheckoutScrolling",
+            "printedName": "enableCheckoutScrolling(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC23enableCheckoutScrolling7enabledySb_tF",
+            "mangledName": "$s8QliroOne0aB7WebViewC23enableCheckoutScrolling7enabledySb_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "excludeResultModules",
+            "printedName": "excludeResultModules(modules:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QliroOne.Module]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Module",
+                    "printedName": "QliroOne.Module",
+                    "usr": "c:@M@QliroOne@E@Module"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC20excludeResultModules7modulesySayAA6ModuleOG_tF",
+            "mangledName": "$s8QliroOne0aB7WebViewC20excludeResultModules7modulesySayAA6ModuleOG_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScroll",
+            "printedName": "onScroll(containerHeight:offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC8onScroll15containerHeight6offsetySi_SitF",
+            "mangledName": "$s8QliroOne0aB7WebViewC8onScroll15containerHeight6offsetySi_SitF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneWebView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s8QliroOne0aB7WebViewC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0lmG0VctF",
+            "moduleName": "QliroOne",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneWebView(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s8QliroOne0aB7WebViewC03webD0_06createcD4With3for14windowFeaturesSo05WKWebD0CSgAI_So0kD13ConfigurationCSo18WKNavigationActionCSo08WKWindowJ0CtF",
+            "moduleName": "QliroOne",
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)QliroOneWebView",
+        "mangledName": "$s8QliroOne0aB7WebViewC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)WKWebView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "WebKit.WKWebView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "QliroOneActions",
+            "printedName": "QliroOneActions",
+            "usr": "s:8QliroOne0aB7ActionsP",
+            "mangledName": "$s8QliroOne0aB7ActionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Shipping",
+        "printedName": "Shipping",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)method",
+            "mangledName": "$s8QliroOne8ShippingC6methodSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)method",
+                "mangledName": "$s8QliroOne8ShippingC6methodSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryOption",
+            "printedName": "secondaryOption",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)secondaryOption",
+            "mangledName": "$s8QliroOne8ShippingC15secondaryOptionSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)secondaryOption",
+                "mangledName": "$s8QliroOne8ShippingC15secondaryOptionSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "additionalShippingServices",
+            "printedName": "additionalShippingServices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)additionalShippingServices",
+            "mangledName": "$s8QliroOne8ShippingC010additionalC8ServicesSaySSGSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)additionalShippingServices",
+                "mangledName": "$s8QliroOne8ShippingC010additionalC8ServicesSaySSGSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)price",
+            "mangledName": "$s8QliroOne8ShippingC5priceSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)price",
+                "mangledName": "$s8QliroOne8ShippingC5priceSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "priceExVat",
+            "printedName": "priceExVat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)priceExVat",
+            "mangledName": "$s8QliroOne8ShippingC10priceExVatSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)priceExVat",
+                "mangledName": "$s8QliroOne8ShippingC10priceExVatSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalShippingPrice",
+            "printedName": "totalShippingPrice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)totalShippingPrice",
+            "mangledName": "$s8QliroOne8ShippingC05totalC5PriceSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)totalShippingPrice",
+                "mangledName": "$s8QliroOne8ShippingC05totalC5PriceSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalShippingPriceExVat",
+            "printedName": "totalShippingPriceExVat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)totalShippingPriceExVat",
+            "mangledName": "$s8QliroOne8ShippingC05totalC10PriceExVatSivp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)totalShippingPriceExVat",
+                "mangledName": "$s8QliroOne8ShippingC05totalC10PriceExVatSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Shipping",
+                "printedName": "QliroOne.Shipping",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne8ShippingC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8QliroOne8ShippingC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne8ShippingC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8QliroOne8ShippingC6encode2toys7Encoder_p_tKF",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QliroOne@objc(cs)Shipping",
+        "mangledName": "$s8QliroOne8ShippingC",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/ChildWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 12,
+      "value": "\"QliroOne.ChildWebView\""
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "IntegerLiteral",
+      "offset": 346,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1531,
+      "length": 15,
+      "value": "\"qliroonetoken\""
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1687,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

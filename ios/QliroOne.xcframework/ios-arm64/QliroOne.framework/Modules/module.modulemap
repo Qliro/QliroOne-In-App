@@ -1,0 +1,11 @@
+framework module QliroOne {
+  umbrella header "QliroOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module QliroOne.Swift {
+  header "QliroOne-Swift.h"
+  requires objc
+}
