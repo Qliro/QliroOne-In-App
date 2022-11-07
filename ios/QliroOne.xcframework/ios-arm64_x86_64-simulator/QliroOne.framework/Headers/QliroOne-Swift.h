@@ -293,6 +293,7 @@ typedef SWIFT_ENUM(NSInteger, Module, open) {
 
 SWIFT_CLASS("_TtC8QliroOne5Order")
 @interface Order : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nullable merchantUpdateVersion;
 @property (nonatomic, readonly) double totalPrice;
 @property (nonatomic, readonly, copy) NSArray<OrderItem *> * _Nonnull orderItems;
 @end
@@ -789,6 +790,7 @@ typedef SWIFT_ENUM(NSInteger, Module, open) {
 
 SWIFT_CLASS("_TtC8QliroOne5Order")
 @interface Order : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nullable merchantUpdateVersion;
 @property (nonatomic, readonly) double totalPrice;
 @property (nonatomic, readonly, copy) NSArray<OrderItem *> * _Nonnull orderItems;
 @end

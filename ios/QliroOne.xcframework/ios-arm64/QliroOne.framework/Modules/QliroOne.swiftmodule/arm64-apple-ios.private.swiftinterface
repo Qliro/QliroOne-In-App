@@ -20,12 +20,6 @@ import _StringProcessing
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@objc public class PurchaseRedirectOptions : ObjectiveC.NSObject, Swift.Codable {
-  @objc final public let merchantConfirmationUrl: Swift.String
-  @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
-}
 @objc public class Customer : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let email: Swift.String?
   @objc final public let mobileNumber: Swift.String?
@@ -48,6 +42,7 @@ import _StringProcessing
   public init?(rawValue: QliroOne.Module.RawValue)
 }
 @objc public class Order : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let merchantUpdateVersion: Swift.String?
   @objc final public let totalPrice: Swift.Double
   @objc final public let orderItems: [QliroOne.OrderItem]
   @objc deinit
@@ -67,6 +62,12 @@ import _StringProcessing
   @objc final public let subtype: Swift.String?
   @objc final public let price: Swift.Double
   @objc final public let priceExVat: Swift.Double
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class PurchaseRedirectOptions : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let merchantConfirmationUrl: Swift.String
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
