@@ -3082,6 +3082,44 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(reactNativeSDKVersion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QliroOneCheckout",
+                "printedName": "QliroOne.QliroOneCheckout",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)initWithReactNativeSDKVersion:",
+            "mangledName": "$s8QliroOne0aB8CheckoutC21reactNativeSDKVersionACSSSg_tcfc",
+            "moduleName": "QliroOne",
+            "objc_name": "initWithReactNativeSDKVersion:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(frame:)",
             "children": [
               {
@@ -5487,6 +5525,13 @@
       "offset": 584,
       "length": 15,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 7,
+      "value": "\"2.1.0\""
     },
     {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",

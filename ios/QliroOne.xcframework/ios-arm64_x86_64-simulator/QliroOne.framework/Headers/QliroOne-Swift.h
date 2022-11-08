@@ -330,6 +330,7 @@ SWIFT_CLASS("_TtC8QliroOne16QliroOneCheckout")
 @property (nonatomic, strong) id <QliroOneListener> _Nullable qliroOneListener;
 @property (nonatomic, readonly, strong) QliroOneWebView * _Nonnull webView;
 @property (nonatomic) BOOL isScrollEnabled;
+- (nonnull instancetype)initWithReactNativeSDKVersion:(NSString * _Nullable)reactNativeSDKVersion OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
@@ -827,6 +828,7 @@ SWIFT_CLASS("_TtC8QliroOne16QliroOneCheckout")
 @property (nonatomic, strong) id <QliroOneListener> _Nullable qliroOneListener;
 @property (nonatomic, readonly, strong) QliroOneWebView * _Nonnull webView;
 @property (nonatomic) BOOL isScrollEnabled;
+- (nonnull instancetype)initWithReactNativeSDKVersion:(NSString * _Nullable)reactNativeSDKVersion OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end

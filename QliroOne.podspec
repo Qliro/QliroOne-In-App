@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QliroOne"
-  spec.version      = "2.0.10"
+  spec.version      = "2.1.0"
   spec.summary      = "SDK for integrating QliroOne in your app"
   spec.description  = "QliroOne SDK - SDK for integrating QliroOne in your app"
   spec.homepage     = "https://www.qliro.com/sv-se"
