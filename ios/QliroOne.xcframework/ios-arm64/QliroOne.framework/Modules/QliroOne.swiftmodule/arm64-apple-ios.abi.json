@@ -4378,9 +4378,11 @@
             "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
             "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
             "protocolReq": true,
+            "objc_name": "onCheckoutHeightChangedWithHeight:",
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4498,6 +4500,28 @@
             "declKind": "Func",
             "usr": "s:8QliroOne0aB7WebViewC13loadOrderHtml4htmlySS_tF",
             "mangledName": "$s8QliroOne0aB7WebViewC13loadOrderHtml4htmlySS_tF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshSize",
+            "printedName": "refreshSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC11refreshSizeyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC11refreshSizeyyF",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Custom",
@@ -5499,13 +5523,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/ChildWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 125,
-      "length": 12,
-      "value": "\"QliroOne.ChildWebView\""
-    },
-    {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
@@ -5529,23 +5546,23 @@
     {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 322,
       "length": 7,
-      "value": "\"2.1.1\""
+      "value": "\"2.2.0\""
+    },
+    {
+      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 2,
+      "value": "24"
     },
     {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 1830,
       "length": 15,
       "value": "\"qliroonetoken\""
-    },
-    {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 1687,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }

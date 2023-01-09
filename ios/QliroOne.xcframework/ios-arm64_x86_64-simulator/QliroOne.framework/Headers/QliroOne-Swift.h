@@ -424,6 +424,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 /// \param options - An object with data to be used to customize the redirect to your liking. 
 ///
 - (void)onCompletePurchaseRedirectWithOptions:(PurchaseRedirectOptions * _Nonnull)options;
+@optional
 /// Called when Qliro One changes its height
 - (void)onCheckoutHeightChangedWithHeight:(NSInteger)height;
 @end
@@ -456,16 +457,17 @@ SWIFT_CLASS("_TtC8QliroOne15QliroOneWebView")
 
 
 @class WKNavigationAction;
-
-@interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-@end
-
 @class WKWindowFeatures;
 
 @interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
+@interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+@end
+
 
 @class WKUserContentController;
 @class WKScriptMessage;
@@ -473,7 +475,6 @@ SWIFT_CLASS("_TtC8QliroOne15QliroOneWebView")
 @interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKScriptMessageHandler>
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
-
 
 
 
@@ -922,6 +923,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 /// \param options - An object with data to be used to customize the redirect to your liking. 
 ///
 - (void)onCompletePurchaseRedirectWithOptions:(PurchaseRedirectOptions * _Nonnull)options;
+@optional
 /// Called when Qliro One changes its height
 - (void)onCheckoutHeightChangedWithHeight:(NSInteger)height;
 @end
@@ -954,16 +956,17 @@ SWIFT_CLASS("_TtC8QliroOne15QliroOneWebView")
 
 
 @class WKNavigationAction;
-
-@interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-@end
-
 @class WKWindowFeatures;
 
 @interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
+@interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+@end
+
 
 @class WKUserContentController;
 @class WKScriptMessage;
@@ -971,7 +974,6 @@ SWIFT_CLASS("_TtC8QliroOne15QliroOneWebView")
 @interface QliroOneWebView (SWIFT_EXTENSION(QliroOne)) <WKScriptMessageHandler>
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
-
 
 
 
