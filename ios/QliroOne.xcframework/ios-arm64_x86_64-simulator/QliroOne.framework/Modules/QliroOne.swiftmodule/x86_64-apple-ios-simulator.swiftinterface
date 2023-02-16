@@ -178,6 +178,7 @@ extension QliroOne.QliroOneWebView : WebKit.WKUIDelegate {
   @objc final public let priceExVat: Swift.Double
   @objc final public let totalShippingPrice: Swift.Double
   @objc final public let totalShippingPriceExVat: Swift.Double
+  @objc final public let accessCode: Swift.String?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws

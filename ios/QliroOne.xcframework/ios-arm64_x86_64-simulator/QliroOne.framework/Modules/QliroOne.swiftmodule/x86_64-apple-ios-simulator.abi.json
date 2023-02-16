@@ -5385,6 +5385,73 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "accessCode",
+            "printedName": "accessCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)Shipping(py)accessCode",
+            "mangledName": "$s8QliroOne8ShippingC10accessCodeSSSgvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)Shipping(im)accessCode",
+                "mangledName": "$s8QliroOne8ShippingC10accessCodeSSSgvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -5548,7 +5615,7 @@
       "kind": "StringLiteral",
       "offset": 322,
       "length": 7,
-      "value": "\"2.2.0\""
+      "value": "\"2.2.1\""
     },
     {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",

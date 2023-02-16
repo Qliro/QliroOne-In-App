@@ -487,6 +487,9 @@ SWIFT_CLASS("_TtC8QliroOne8Shipping")
 @property (nonatomic, readonly) double priceExVat;
 @property (nonatomic, readonly) double totalShippingPrice;
 @property (nonatomic, readonly) double totalShippingPriceExVat;
+/// Experimental - Might change in the future. If you want to use this feature contact support.
+/// *
+@property (nonatomic, readonly, copy) NSString * _Nullable accessCode;
 @end
 
 #endif
