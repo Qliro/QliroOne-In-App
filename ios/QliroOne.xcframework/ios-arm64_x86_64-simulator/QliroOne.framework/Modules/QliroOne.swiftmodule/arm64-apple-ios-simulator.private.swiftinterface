@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QliroOne
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import QliroOne
@@ -17,8 +17,8 @@ import _StringProcessing
   @objc final public let postalCode: Swift.String?
   @objc final public let isMasked: Swift.Bool
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class Customer : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let email: Swift.String?
@@ -27,8 +27,8 @@ import _StringProcessing
   @objc final public let personalNumber: Swift.String?
   @objc final public let organizationNumber: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public enum Module : Swift.Int, Swift.RawRepresentable {
   case HEADER
@@ -46,16 +46,16 @@ import _StringProcessing
   @objc final public let totalPrice: Swift.Double
   @objc final public let orderItems: [QliroOne.OrderItem]
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class OrderItem : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let merchantReference: Swift.String
   @objc final public let pricePerItemIncVat: Swift.Double
   @objc final public let quantity: Swift.Int
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class PaymentMethod : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let method: Swift.String?
@@ -63,14 +63,14 @@ import _StringProcessing
   @objc final public let price: Swift.Double
   @objc final public let priceExVat: Swift.Double
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class PurchaseRedirectOptions : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let merchantConfirmationUrl: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public protocol QliroOneActions {
   func addSessionExpiredCallback()
@@ -84,7 +84,7 @@ public protocol QliroOneActions {
   func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class QliroOneCheckout : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) public var qliroOneListener: QliroOne.QliroOneListener?
+  @objc @_Concurrency.MainActor(unsafe) public var qliroOneListener: (any QliroOne.QliroOneListener)?
   @objc @_Concurrency.MainActor(unsafe) final public let webView: QliroOne.QliroOneWebView
   @objc @_Concurrency.MainActor(unsafe) public var isScrollEnabled: Swift.Bool {
     @objc get
@@ -126,6 +126,7 @@ extension QliroOne.QliroOneCheckout : QliroOne.QliroOneListener {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onCustomerInfoChanged(customer: QliroOne.Customer)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onCustomerDeauthenticating()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onClosePopup()
 }
 @objc public protocol QliroOneListener {
   @objc func onCheckoutLoaded()
@@ -141,6 +142,7 @@ extension QliroOne.QliroOneCheckout : QliroOne.QliroOneListener {
   @objc func onOrderUpdated(order: QliroOne.Order)
   @objc func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
   @objc optional func onCheckoutHeightChanged(height: Swift.Int)
+  @objc optional func onClosePopup()
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class QliroOneWebView : WebKit.WKWebView {
   @objc deinit
@@ -180,8 +182,8 @@ extension QliroOne.QliroOneWebView : WebKit.WKUIDelegate {
   @objc final public let totalShippingPriceExVat: Swift.Double
   @objc final public let accessCode: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 extension QliroOne.Module : Swift.Equatable {}
 extension QliroOne.Module : Swift.Hashable {}
