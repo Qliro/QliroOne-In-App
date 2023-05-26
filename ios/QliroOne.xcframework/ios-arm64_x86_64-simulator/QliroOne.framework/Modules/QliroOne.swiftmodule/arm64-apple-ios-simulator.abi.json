@@ -3888,6 +3888,31 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClosePopup",
+            "printedName": "onClosePopup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)onClosePopup",
+            "mangledName": "$s8QliroOne0aB8CheckoutC12onClosePopupyyF",
+            "moduleName": "QliroOne",
+            "objc_name": "onClosePopup",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4379,6 +4404,32 @@
             "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
             "protocolReq": true,
             "objc_name": "onCheckoutHeightChangedWithHeight:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClosePopup",
+            "printedName": "onClosePopup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onClosePopup",
+            "mangledName": "$s8QliroOne0aB8ListenerP12onClosePopupyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
             "declAttributes": [
               "Optional",
               "ObjC",
@@ -5615,7 +5666,7 @@
       "kind": "StringLiteral",
       "offset": 322,
       "length": 7,
-      "value": "\"2.2.1\""
+      "value": "\"2.2.4\""
     },
     {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
@@ -5627,7 +5678,7 @@
     {
       "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1830,
+      "offset": 1895,
       "length": 15,
       "value": "\"qliroonetoken\""
     }

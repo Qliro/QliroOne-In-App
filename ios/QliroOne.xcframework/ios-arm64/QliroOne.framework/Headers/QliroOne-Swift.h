@@ -427,6 +427,8 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 @optional
 /// Called when Qliro One changes its height
 - (void)onCheckoutHeightChangedWithHeight:(NSInteger)height;
+/// Called when the childWebView should be closed
+- (void)onClosePopup;
 @end
 
 
@@ -444,6 +446,7 @@ SWIFT_PROTOCOL("_TtP8QliroOne16QliroOneListener_")
 - (void)onCustomerInfoChangedWithCustomer:(Customer * _Nonnull)customer;
 - (void)onCompletePurchaseRedirectWithOptions:(PurchaseRedirectOptions * _Nonnull)options;
 - (void)onCustomerDeauthenticating;
+- (void)onClosePopup;
 @end
 
 
