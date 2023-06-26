@@ -5641,46 +5641,928 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/ChildWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 573,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/ChildWebView.swift",
+      "kind": "Dictionary",
+      "offset": 1711,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/ChildWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 20,
+      "value": "\"Could not open url\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 16,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
       "kind": "IntegerLiteral",
       "offset": 584,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 8,
+      "value": "\"HEADER\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 13,
+      "value": "\"TOTAL_PRICE\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 18,
+      "value": "\"CUSTOMER_DETAILS\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 17,
+      "value": "\"SHIPPING_METHOD\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 1054,
+      "length": 8,
+      "value": "\"HEADER\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 13,
+      "value": "\"TOTAL_PRICE\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 18,
+      "value": "\"CUSTOMER_DETAILS\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 17,
+      "value": "\"SHIPPING_METHOD\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 7,
-      "value": "\"2.2.4\""
+      "value": "\"2.2.5\""
     },
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2798,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2868,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4878,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6169,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6463,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/ljod\/Dev\/QliroOne-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 258,
+      "length": 1649,
+      "value": "\"let root = document.querySelector('#hermione-container'); \/\/ Paypal workaround\nif (!root) {\n\troot = document.querySelector('#root');\n}\nif (!root) {\n    root = document.querySelector('#app .appViewport'); \/\/ Norwegian EId workaround\n}\nif (!root) {\n    root = document.querySelector('body > .page-content'); \/\/ Finish EId workaround\n}\nif (!root) {\n\troot = document.querySelector(\"body > div\");\n}\n\nlet previousHeights = [];\nfunction setHeight(newHeight, force) {\n  webkit.messageHandlers.onLog.postMessage(`maybe setheight ${newHeight}`);\n  if (\n\tforce ||\n\t(newHeight !== previousHeights[0] && newHeight !== previousHeights[1] && newHeight !== previousHeights[0] + \""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 2,
+      "value": "\" && newHeight !== previousHeights[1] + \""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 1,
+      "value": "\")\n  ) {\n\t const args = JSON.stringify({ height: newHeight });\n\t webkit.messageHandlers.onClientHeightChanged.postMessage(args);\n\t previousHeights = [newHeight, previousHeights[0]];\n\t return true;\n  }\n  return false;\n}\n\n\/\/ create an Observer instance\ntry {\n  const resizeObserver = new ResizeObserver(function (entries) {\n\t const height = entries[entries.length - 1].target.clientHeight;\n\t setHeight(height);\n  });\n  if (root) {\n\t \/\/ start observing a DOM node\n\t resizeObserver.observe(root);\n  }\n} catch (e) {\n  webkit.messageHandlers.onLog.postMessage(e.message);\n\n  \/\/ Falling back to setInterval implementation\n  setInterval(function findDialogBox() {\n\t const newHeight = Math.max(root.scrollHeight, root.offsetHeight);\n\t setHeight(newHeight);\n  }, 100);\n}\n\nfunction refreshHeight() {\n\treturn setHeight(root && root.clientHeight ? root.clientHeight : \"\", true);\n}\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
       "length": 15,
       "value": "\"qliroonetoken\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2585,
+      "length": 616,
+      "value": "\"    window.qliroapp = true;\n    window.qliroOneAppSdkInformation = {\n      platform: \"ios\",\n      nativeSDKVersion: \"\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2757,
+      "length": 2,
+      "value": "\"\",\n      reactNativeSDKVersion: \""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2830,
+      "length": 31,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2858,
+      "length": 1,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2864,
+      "length": 11,
+      "value": "\"undefined\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2876,
+      "length": 1,
+      "value": "\",\n    }\n\n    var head = document.getElementsByTagName('head')[0];\n    var meta = document.createElement('meta');\n    meta.name = 'viewport';\n    meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\n    head.appendChild(meta);\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3433,
+      "length": 17,
+      "value": "\"onQliroOneReady\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3512,
+      "length": 18,
+      "value": "\"onCheckoutLoaded\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3586,
+      "length": 23,
+      "value": "\"onClientHeightChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3671,
+      "length": 24,
+      "value": "\"onPaymentMethodChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3757,
+      "length": 23,
+      "value": "\"onPaymentProcessStart\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3842,
+      "length": 21,
+      "value": "\"onPaymentProcessEnd\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3925,
+      "length": 25,
+      "value": "\"onShippingMethodChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4012,
+      "length": 24,
+      "value": "\"onShippingPriceChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4098,
+      "length": 23,
+      "value": "\"onCustomerInfoChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4177,
+      "length": 28,
+      "value": "\"onCustomerDeauthenticating\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4261,
+      "length": 28,
+      "value": "\"onCompletePurchaseRedirect\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4345,
+      "length": 16,
+      "value": "\"onTokenChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4423,
+      "length": 16,
+      "value": "\"onOrderUpdated\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4501,
+      "length": 18,
+      "value": "\"onSessionExpired\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4575,
+      "length": 7,
+      "value": "\"onLog\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4638,
+      "length": 14,
+      "value": "\"onClosePopup\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4904,
+      "length": 2265,
+      "value": "\"<script type=\"text\/javascript\">\nwindow.q1Ready = function(q1) {\n\tq1.onCheckoutLoaded(function callback() {\n\t\twebkit.messageHandlers.onCheckoutLoaded.postMessage(null);\n\t});\n\n\tq1.onCustomerInfoChanged(function callback(customer) {\n\t\tconst args = JSON.stringify({ customer });\n\t\twebkit.messageHandlers.onCustomerInfoChanged.postMessage(args);\n\t});\n\n\tq1.onCustomerDeauthenticating(function callback() {\n\t\twebkit.messageHandlers.onCustomerDeauthenticating.postMessage(null);\n\t});\n\n\tq1.onPaymentMethodChanged(function callback(paymentMethod) {\n\t\tconst args = JSON.stringify({ paymentMethod });\n\t\twebkit.messageHandlers.onPaymentMethodChanged.postMessage(args);\n\t});\n\n\tq1.onPaymentDeclined(function callback(declineReason, declineReasonMessage) {\n\t\tconst args = JSON.stringify({ declineReason, declineReasonMessage });\n\t\twebkit.messageHandlers.onPaymentDeclined.postMessage(args);\n\t});\n\n\tq1.onPaymentProcess(function start() {\n\t\twebkit.messageHandlers.onPaymentProcessStart.postMessage(null);\n\t}, function end() {\n\t\twebkit.messageHandlers.onPaymentProcessEnd.postMessage(null);\n\t});\n\n\tq1.onShippingMethodChanged(function callback(shipping) {\n\t\tconst args = JSON.stringify({ shipping });\n\t\twebkit.messageHandlers.onShippingMethodChanged.postMessage(args);\n\t});\n\n\tq1.onShippingPriceChanged(function callback(newShippingPrice, newTotalShippingPrice) {\n\t\tconst args = JSON.stringify({ newShippingPrice, newTotalShippingPrice });\n\t\twebkit.messageHandlers.onShippingPriceChanged.postMessage(args);\n\t});\n\n\tq1.onCompletePurchaseRedirect(function callback(redirect, data) {\n\t\tconst args = JSON.stringify({ data });\n\t\twebkit.messageHandlers.onCompletePurchaseRedirect.postMessage(args);\n\t});\n\n\tq1.onTokenChanged(\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 6697,
+      "length": 13,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 6708,
+      "length": 44,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 6713,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 6720,
+      "length": 1,
+      "value": "\", function callback(tokenData) {\n\t\tconst args = JSON.stringify({ tokenData });\n\t\twebkit.messageHandlers.onTokenChanged.postMessage(args);\n\t});\n\n\tif (q1.onClosePopup) {\n\t\tq1.onClosePopup(function callback() {\n\t\t\twebkit.messageHandlers.onClosePopup.postMessage(null);\n\t\t})\n\t}\n}\n<\/script>\n\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7035,
+      "length": 1,
+      "value": "\"\n<script type=\"text\/javascript\">\n\t\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7090,
+      "length": 6,
+      "value": "\"\n\twebkit.messageHandlers.onQliroOneReady.postMessage(null);\n<\/script>\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "Array",
+      "offset": 7571,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7669,
+      "length": 17,
+      "value": "\"onQliroOneReady\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7708,
+      "length": 7,
+      "value": "\"onLog\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7762,
+      "length": 18,
+      "value": "\"onCheckoutLoaded\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7838,
+      "length": 23,
+      "value": "\"onCustomerInfoChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 7903,
+      "length": 10,
+      "value": "\"customer\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8142,
+      "length": 28,
+      "value": "\"onCustomerDeauthenticating\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8238,
+      "length": 24,
+      "value": "\"onPaymentMethodChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8304,
+      "length": 15,
+      "value": "\"paymentMethod\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8569,
+      "length": 19,
+      "value": "\"onPaymentDeclined\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8658,
+      "length": 15,
+      "value": "\"declineReason\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8729,
+      "length": 22,
+      "value": "\"declineReasonMessage\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8901,
+      "length": 23,
+      "value": "\"onPaymentProcessStart\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8987,
+      "length": 21,
+      "value": "\"onPaymentProcessEnd\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9069,
+      "length": 25,
+      "value": "\"onShippingMethodChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9136,
+      "length": 10,
+      "value": "\"shipping\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9377,
+      "length": 24,
+      "value": "\"onShippingPriceChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9475,
+      "length": 18,
+      "value": "\"newShippingPrice\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9560,
+      "length": 23,
+      "value": "\"newTotalShippingPrice\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9764,
+      "length": 28,
+      "value": "\"onCompletePurchaseRedirect\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9834,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10068,
+      "length": 16,
+      "value": "\"onTokenChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10157,
+      "length": 11,
+      "value": "\"tokenData\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10287,
+      "length": 16,
+      "value": "\"onOrderUpdated\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10345,
+      "length": 7,
+      "value": "\"order\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10562,
+      "length": 18,
+      "value": "\"onSessionExpired\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10638,
+      "length": 23,
+      "value": "\"onClientHeightChanged\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10702,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10967,
+      "length": 14,
+      "value": "\"onClosePopup\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 11487,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11552,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12003,
+      "length": 28,
+      "value": "\"https:\/\/payments.qliro.com\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12107,
+      "length": 18,
+      "value": "\"refreshHeight();\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12275,
+      "length": 125,
+      "value": "\"q1.onSessionExpired(function callback() {\n\twebkit.messageHandlers.onSessionExpired.postMessage(null);\n});\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12509,
+      "length": 28,
+      "value": "\"q1.onSessionExpired(null);\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12624,
+      "length": 11,
+      "value": "\"q1.lock()\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12727,
+      "length": 13,
+      "value": "\"q1.unlock()\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 12844,
+      "length": 170,
+      "value": "\"q1.onOrderUpdated(function callback(order) {\n\tconst args = JSON.stringify({ order });\n\twebkit.messageHandlers.onOrderUpdated.postMessage(args);\n});\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13120,
+      "length": 26,
+      "value": "\"q1.onOrderUpdated(null);\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13265,
+      "length": 51,
+      "value": "\"q1.enableScrolling(\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13297,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13306,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13314,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13430,
+      "length": 5,
+      "value": "\"[\"\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13484,
+      "length": 7,
+      "value": "\"\",\"\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13495,
+      "length": 5,
+      "value": "\"\"]\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13533,
+      "length": 38,
+      "value": "\"q1.excludeResultModules(\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13569,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13694,
+      "length": 161,
+      "value": "\"window.dispatchEvent(\n\tnew CustomEvent(\n\t\t\"scroll\",\n\t\t{ detail:  { customHeight: \""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13811,
+      "length": 1,
+      "value": "\", customTop: \""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 13833,
+      "length": 1,
+      "value": "\" }}\n\t)\n);\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14286,
+      "length": 5,
+      "value": "\"app\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14361,
+      "length": 71,
+      "value": "\"itms:\/\/itunes.apple.com\/se\/app\/qliro-betala-i-appen\/id1165368803?mt=8\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14636,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14694,
+      "length": 5,
+      "value": "\"tel\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14748,
+      "length": 14,
+      "value": "\"telprompt:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14777,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14832,
+      "length": 5,
+      "value": "\"sms\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14886,
+      "length": 8,
+      "value": "\"sms:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14909,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 14964,
+      "length": 8,
+      "value": "\"mailto\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15021,
+      "length": 11,
+      "value": "\"mailto:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15047,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15102,
+      "length": 8,
+      "value": "\"bankid\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15112,
+      "length": 7,
+      "value": "\"swish\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15121,
+      "length": 7,
+      "value": "\"vipps\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15130,
+      "length": 9,
+      "value": "\"vippsMT\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15141,
+      "length": 17,
+      "value": "\"mobilepayonline\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15160,
+      "length": 22,
+      "value": "\"mobilepayonline-test\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15841,
+      "length": 5,
+      "value": "\"app\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 15917,
+      "length": 71,
+      "value": "\"itms:\/\/itunes.apple.com\/se\/app\/qliro-betala-i-appen\/id1165368803?mt=8\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16133,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "Dictionary",
+      "offset": 16782,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/appteam\/.gitlab-runner\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 16901,
+      "length": 20,
+      "value": "\"Could not open url\""
     }
   ]
 }

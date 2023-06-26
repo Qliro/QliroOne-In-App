@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QliroOne-Swift.h</key>
 		<data>
-		R6Hn/w9BRROqk4p3YYnyRyDkVQ0=
+		yC1agfF8X+l9MdUUEjiC1tGHKo8=
 		</data>
 		<key>Headers/QliroOne-umbrella.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+0yhIzAu926+LP99HagESsbp3eE=
+		MfkneKV0OZJyWjJecQdMWkB3fVI=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ntOXY63myIM7m1yD+FwhVBJ64ts=
+		Iy6SjKbGax1f4dSS7sBSOHOrTTs=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QV3wmqLvtZui62muzYHhDBf9Lu0=
+		9l7f4BrxfN93mJafEeg0cwlzLQw=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RzW3a3WnBW8uGimjfieG8BAP37s=
+		qEwlSHiJiDXoSwHdgbzXJby3MPk=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QV3wmqLvtZui62muzYHhDBf9Lu0=
+		9l7f4BrxfN93mJafEeg0cwlzLQw=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kpU0/CGLuHkb0WqTmh7cYpBmI9A=
+		SDJ58dI/n0xIWpjzJt0xzBIjSbQ=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ntOXY63myIM7m1yD+FwhVBJ64ts=
+		Iy6SjKbGax1f4dSS7sBSOHOrTTs=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pk2RLRuHjKjB65D2GEVrKZVpfNg=
+		XNMW/tuATFuzKeFBG9b3ZTtT4a4=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		U2FBc4bmN2cyCSkkdvolDSGtIpI=
+		+T1rbSgOJdNdYmpYT58vGtO5a94=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pk2RLRuHjKjB65D2GEVrKZVpfNg=
+		XNMW/tuATFuzKeFBG9b3ZTtT4a4=
 		</data>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vAVLVf0t4JmNbMlzepcPASeO/Bc=
+		GohGgt+BndsQd5V1Tcs4lpiHtyw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R6Hn/w9BRROqk4p3YYnyRyDkVQ0=
+			yC1agfF8X+l9MdUUEjiC1tGHKo8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rz8WgTciSy774P1/SUOH+v3Wi/9zbR387vYxKVK++XE=
+			o1/LDY5wwxxGv6m61kEDULOQfTOz9JxgE0WXpzDMsw8=
 			</data>
 		</dict>
 		<key>Headers/QliroOne-umbrella.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ntOXY63myIM7m1yD+FwhVBJ64ts=
+			Iy6SjKbGax1f4dSS7sBSOHOrTTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			axUYhamp/YYLu8S0/aGdso84+8x++p3f7OXuVB3W3p4=
+			Wn9kLO2JOECCwW7zve63Qetq0/7QxZI2fpCZdeqTYik=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QV3wmqLvtZui62muzYHhDBf9Lu0=
+			9l7f4BrxfN93mJafEeg0cwlzLQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qx7mvaqLuJXbMMQJpzEl/CRJiaojyYXsuSP3mnukAHI=
+			pgApr192JVIa3x+ZB062T1pu0pSBbrMKX90w1YnIQpo=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RzW3a3WnBW8uGimjfieG8BAP37s=
+			qEwlSHiJiDXoSwHdgbzXJby3MPk=
 			</data>
 			<key>hash2</key>
 			<data>
-			knXlE1H1LEu9b05L6Xzu1sJuGxqpZEd/bEDh2A4UXE0=
+			ey7I0u6GStkeK9MNPc3zZU7ZUXgjJxjHLdKbHxyfP9o=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QV3wmqLvtZui62muzYHhDBf9Lu0=
+			9l7f4BrxfN93mJafEeg0cwlzLQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qx7mvaqLuJXbMMQJpzEl/CRJiaojyYXsuSP3mnukAHI=
+			pgApr192JVIa3x+ZB062T1pu0pSBbrMKX90w1YnIQpo=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kpU0/CGLuHkb0WqTmh7cYpBmI9A=
+			SDJ58dI/n0xIWpjzJt0xzBIjSbQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xH5LGZNrfe/y14Ew7ccCMma21GhR/iXjeSbPSBx5e9Q=
+			DXuSEELHE7mfN5dQ+/6DVo5jAfR7XSUxC8f5d3q6+50=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ntOXY63myIM7m1yD+FwhVBJ64ts=
+			Iy6SjKbGax1f4dSS7sBSOHOrTTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			axUYhamp/YYLu8S0/aGdso84+8x++p3f7OXuVB3W3p4=
+			Wn9kLO2JOECCwW7zve63Qetq0/7QxZI2fpCZdeqTYik=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pk2RLRuHjKjB65D2GEVrKZVpfNg=
+			XNMW/tuATFuzKeFBG9b3ZTtT4a4=
 			</data>
 			<key>hash2</key>
 			<data>
-			M/onf3VtBml1J7k+6EPWJ3wS+R28TJCrqhhzdL58rwI=
+			9eg3IpVZ8ZGeG3oOGHYdUQosB++DTxu7W5NbTbHmtik=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U2FBc4bmN2cyCSkkdvolDSGtIpI=
+			+T1rbSgOJdNdYmpYT58vGtO5a94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jqztc0+wnhpYfHFUEyB00hLMMnUqYmLY6sGKA65e8qo=
+			qm4q3MKxp8nJvQ38cP4kupgkdhIkMQ5S/gTMDDJPDLA=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pk2RLRuHjKjB65D2GEVrKZVpfNg=
+			XNMW/tuATFuzKeFBG9b3ZTtT4a4=
 			</data>
 			<key>hash2</key>
 			<data>
-			M/onf3VtBml1J7k+6EPWJ3wS+R28TJCrqhhzdL58rwI=
+			9eg3IpVZ8ZGeG3oOGHYdUQosB++DTxu7W5NbTbHmtik=
 			</data>
 		</dict>
 		<key>Modules/QliroOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vAVLVf0t4JmNbMlzepcPASeO/Bc=
+			GohGgt+BndsQd5V1Tcs4lpiHtyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			a1f7/vwnmpSLglnQTU+/KkaHNK6YSCTGEssBcPD1wLg=
+			DZD7QHLYCGG57sWxkMmmqks+A7wB4oKmm5DzA5jll3I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
