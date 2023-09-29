@@ -263,6 +263,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
+@import SafariServices;
 @import UIKit;
 @import WebKit;
 #endif
@@ -365,9 +366,10 @@ SWIFT_CLASS("_TtC8QliroOne16QliroOneCheckout")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
 
+@class SFSafariViewController;
 
-@interface QliroOneCheckout (SWIFT_EXTENSION(QliroOne))
-- (void)loadOrderHtmlWithHtml:(NSString * _Nonnull)html;
+@interface QliroOneCheckout (SWIFT_EXTENSION(QliroOne)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
 @class UIScrollView;
@@ -376,6 +378,13 @@ SWIFT_CLASS("_TtC8QliroOne16QliroOneCheckout")
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
+
+
+
+@interface QliroOneCheckout (SWIFT_EXTENSION(QliroOne))
+- (void)loadOrderHtmlWithHtml:(NSString * _Nonnull)html;
+- (void)dismissSafariViewController;
+@end
 
 
 @interface QliroOneCheckout (SWIFT_EXTENSION(QliroOne))

@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QliroOne
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import QliroOne
+import SafariServices
 import Swift
 import UIKit
 import WebKit
@@ -97,8 +98,15 @@ public protocol QliroOneActions {
 extension QliroOne.QliroOneCheckout : UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
 }
+extension QliroOne.QliroOneCheckout {
+  @_Concurrency.MainActor(unsafe) public func openSafeBrowser(url: Foundation.URL)
+}
+extension QliroOne.QliroOneCheckout : SafariServices.SFSafariViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+}
 @objc extension QliroOne.QliroOneCheckout {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func loadOrderHtml(html: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func dismissSafariViewController()
 }
 @objc extension QliroOne.QliroOneCheckout : QliroOne.QliroOneActions {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
