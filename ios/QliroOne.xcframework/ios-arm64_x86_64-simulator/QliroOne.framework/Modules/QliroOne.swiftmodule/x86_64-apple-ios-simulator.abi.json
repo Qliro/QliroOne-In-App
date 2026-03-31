@@ -604,6 +604,396 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CheckoutState",
+        "printedName": "CheckoutState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idle",
+            "printedName": "idle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateIdle",
+            "mangledName": "$s8QliroOne13CheckoutStateO4idleyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateLoading",
+            "mangledName": "$s8QliroOne13CheckoutStateO7loadingyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateReady",
+            "mangledName": "$s8QliroOne13CheckoutStateO5readyyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "paymentInProgress",
+            "printedName": "paymentInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStatePaymentInProgress",
+            "mangledName": "$s8QliroOne13CheckoutStateO17paymentInProgressyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateCompleted",
+            "mangledName": "$s8QliroOne13CheckoutStateO9completedyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateError",
+            "mangledName": "$s8QliroOne13CheckoutStateO5erroryA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QliroOne13CheckoutStateO8rawValueSSvp",
+            "mangledName": "$s8QliroOne13CheckoutStateO8rawValueSSvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne13CheckoutStateO8rawValueSSvg",
+                "mangledName": "$s8QliroOne13CheckoutStateO8rawValueSSvg",
+                "moduleName": "QliroOne",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QliroOne.CheckoutState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne13CheckoutStateO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8QliroOne13CheckoutStateO8rawValueACSgSS_tcfc",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@QliroOne@E@CheckoutState",
+        "mangledName": "$s8QliroOne13CheckoutStateO",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
@@ -2886,6 +3276,30 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reload",
+            "printedName": "reload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7ActionsP6reloadyyF",
+            "mangledName": "$s8QliroOne0aB7ActionsP6reloadyyF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneActions>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneActions>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -3241,6 +3655,247 @@
           },
           {
             "kind": "Var",
+            "name": "checkoutState",
+            "printedName": "checkoutState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CheckoutState",
+                "printedName": "QliroOne.CheckoutState",
+                "usr": "c:@M@QliroOne@E@CheckoutState"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(py)checkoutState",
+            "mangledName": "$s8QliroOne0aB8CheckoutC13checkoutStateAA0cE0Ovp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)checkoutState",
+                "mangledName": "$s8QliroOne0aB8CheckoutC13checkoutStateAA0cE0Ovg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadTimeoutSeconds",
+            "printedName": "loadTimeoutSeconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(py)loadTimeoutSeconds",
+            "mangledName": "$s8QliroOne0aB8CheckoutC18loadTimeoutSecondsSdvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)loadTimeoutSeconds",
+                "mangledName": "$s8QliroOne0aB8CheckoutC18loadTimeoutSecondsSdvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)setLoadTimeoutSeconds:",
+                "mangledName": "$s8QliroOne0aB8CheckoutC18loadTimeoutSecondsSdvs",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne0aB8CheckoutC18loadTimeoutSecondsSdvM",
+                "mangledName": "$s8QliroOne0aB8CheckoutC18loadTimeoutSecondsSdvM",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDebugEnabled",
+            "printedName": "isDebugEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(py)isDebugEnabled",
+            "mangledName": "$s8QliroOne0aB8CheckoutC14isDebugEnabledSbvp",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)isDebugEnabled",
+                "mangledName": "$s8QliroOne0aB8CheckoutC14isDebugEnabledSbvg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)setIsDebugEnabled:",
+                "mangledName": "$s8QliroOne0aB8CheckoutC14isDebugEnabledSbvs",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne0aB8CheckoutC14isDebugEnabledSbvM",
+                "mangledName": "$s8QliroOne0aB8CheckoutC14isDebugEnabledSbvM",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isScrollEnabled",
             "printedName": "isScrollEnabled",
             "children": [
@@ -3401,6 +4056,29 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanup",
+            "printedName": "cleanup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(cs)QliroOneCheckout(im)cleanup",
+            "mangledName": "$s8QliroOne0aB8CheckoutC7cleanupyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -3930,6 +4608,31 @@
               "Custom",
               "AccessControl",
               "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reload",
+            "printedName": "reload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneCheckout(im)reload",
+            "mangledName": "$s8QliroOne0aB8CheckoutC6reloadyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5009,6 +5712,198 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onErrorWithCode:message:",
+            "mangledName": "$s8QliroOne0aB8ListenerP7onError4code7messageySS_SStF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "objc_name": "onErrorWithCode:message:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLog",
+            "printedName": "onLog(level:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onLogWithLevel:message:",
+            "mangledName": "$s8QliroOne0aB8ListenerP5onLog5level7messageySS_SStF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "objc_name": "onLogWithLevel:message:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onStateChanged",
+            "printedName": "onStateChanged(state:previousState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onStateChangedWithState:previousState:",
+            "mangledName": "$s8QliroOne0aB8ListenerP14onStateChanged5state08previousE0ySS_SStF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "objc_name": "onStateChangedWithState:previousState:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTelemetryEvent",
+            "printedName": "onTelemetryEvent(name:durationMs:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QliroOne@objc(pl)QliroOneListener(im)onTelemetryEventWithName:durationMs:metadata:",
+            "mangledName": "$s8QliroOne0aB8ListenerP16onTelemetryEvent4name10durationMs8metadataySS_So8NSNumberCSgSDyS2SGSgtF",
+            "moduleName": "QliroOne",
+            "genericSig": "<τ_0_0 where τ_0_0 : QliroOne.QliroOneListener>",
+            "sugared_genericSig": "<Self where Self : QliroOne.QliroOneListener>",
+            "protocolReq": true,
+            "objc_name": "onTelemetryEventWithName:durationMs:metadata:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -5164,6 +6059,29 @@
             "declKind": "Func",
             "usr": "s:8QliroOne0aB7WebViewC11refreshSizeyyF",
             "mangledName": "$s8QliroOne0aB7WebViewC11refreshSizeyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanup",
+            "printedName": "cleanup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC7cleanupyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC7cleanupyyF",
             "moduleName": "QliroOne",
             "declAttributes": [
               "Preconcurrency",
@@ -5414,6 +6332,29 @@
           },
           {
             "kind": "Function",
+            "name": "reload",
+            "printedName": "reload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QliroOne0aB7WebViewC6reloadyyF",
+            "mangledName": "$s8QliroOne0aB7WebViewC6reloadyyF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "webView",
             "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
             "children": [
@@ -5458,6 +6399,142 @@
             "mangledName": "$s8QliroOne0aB7WebViewC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0lmG0VctF",
             "moduleName": "QliroOne",
             "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneWebView(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s8QliroOne0aB7WebViewC03webD0_7didFail9withErrorySo05WKWebD0C_So12WKNavigationCSgs0I0_ptF",
+            "moduleName": "QliroOne",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneWebView(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s8QliroOne0aB7WebViewC03webD0_28didFailProvisionalNavigation9withErrorySo05WKWebD0C_So12WKNavigationCSgs0K0_ptF",
+            "moduleName": "QliroOne",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webViewWebContentProcessDidTerminate",
+            "printedName": "webViewWebContentProcessDidTerminate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QliroOne@objc(cs)QliroOneWebView(im)webViewWebContentProcessDidTerminate:",
+            "mangledName": "$s8QliroOne0aB7WebViewC03webdC26ContentProcessDidTerminateyySo05WKWebD0CF",
+            "moduleName": "QliroOne",
+            "objc_name": "webViewWebContentProcessDidTerminate:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -5631,6 +6708,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -6280,6 +7364,41 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 124,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 141,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 17,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 9,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 5,
+      "value": "5"
+    },
+    {
       "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
@@ -6305,19 +7424,26 @@
       "kind": "StringLiteral",
       "offset": 695,
       "length": 7,
-      "value": "\"2.2.8\""
+      "value": "\"3.0.0\""
     },
     {
-      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
       "kind": "IntegerLiteral",
-      "offset": 213,
+      "offset": 1018,
       "length": 2,
-      "value": "24"
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1748,
+      "offset": 1559,
       "length": 15,
       "value": "\"qliroonetoken\""
     }
