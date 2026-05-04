@@ -604,6 +604,393 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CheckoutState",
+        "printedName": "CheckoutState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idle",
+            "printedName": "idle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateIdle",
+            "mangledName": "$s8QliroOne13CheckoutStateO4idleyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateLoading",
+            "mangledName": "$s8QliroOne13CheckoutStateO7loadingyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateReady",
+            "mangledName": "$s8QliroOne13CheckoutStateO5readyyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "paymentInProgress",
+            "printedName": "paymentInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStatePaymentInProgress",
+            "mangledName": "$s8QliroOne13CheckoutStateO17paymentInProgressyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateCompleted",
+            "mangledName": "$s8QliroOne13CheckoutStateO9completedyA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QliroOne.CheckoutState.Type) -> QliroOne.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QliroOne.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "QliroOne.CheckoutState",
+                        "usr": "c:@M@QliroOne@E@CheckoutState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@QliroOne@E@CheckoutState@CheckoutStateError",
+            "mangledName": "$s8QliroOne13CheckoutStateO5erroryA2CmF",
+            "moduleName": "QliroOne",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QliroOne.CheckoutState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "QliroOne.CheckoutState",
+                    "usr": "c:@M@QliroOne@E@CheckoutState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8QliroOne13CheckoutStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8QliroOne13CheckoutStateO8rawValueACSgSi_tcfc",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QliroOne13CheckoutStateO8rawValueSivp",
+            "mangledName": "$s8QliroOne13CheckoutStateO8rawValueSivp",
+            "moduleName": "QliroOne",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QliroOne13CheckoutStateO8rawValueSivg",
+                "mangledName": "$s8QliroOne13CheckoutStateO8rawValueSivg",
+                "moduleName": "QliroOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@QliroOne@E@CheckoutState",
+        "mangledName": "$s8QliroOne13CheckoutStateO",
+        "moduleName": "QliroOne",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
@@ -2915,20 +3302,13 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "PassKit",
+        "printedName": "PassKit",
         "declKind": "Import",
         "moduleName": "QliroOne",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "QliroOne"
       },
       {
         "kind": "Import",
@@ -2939,8 +3319,15 @@
       },
       {
         "kind": "Import",
-        "name": "PassKit",
-        "printedName": "PassKit",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QliroOne"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "QliroOne"
       },
@@ -5634,6 +6021,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "QliroOneActions",
             "printedName": "QliroOneActions",
             "usr": "s:8QliroOne0aB7ActionsP",
@@ -6280,6 +6674,48 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 99,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 120,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 139,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/CheckoutState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "5"
+    },
+    {
       "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/enums\/Module.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
@@ -6303,9 +6739,65 @@
     {
       "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
       "kind": "StringLiteral",
-      "offset": 695,
+      "offset": 611,
+      "length": 4,
+      "value": "\"at\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 5,
+      "value": "\"old\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 5,
+      "value": "\"new\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 56,
+      "value": "\"[QliroOne][Init] applePayMerchantId set: old=%@ new=%@\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
       "length": 7,
-      "value": "\"2.2.8\""
+      "value": "\"<nil>\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 960,
+      "length": 7,
+      "value": "\"<nil>\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 8,
+      "value": "\"2.2.12\""
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "Dictionary",
+      "offset": 1420,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneCheckout.swift",
+      "kind": "Array",
+      "offset": 1487,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/appteam\/builds\/2iFBJpbt\/0\/web-app\/qliro-one-sdks\/qliro-one-ios\/QliroOne\/Classes\/QliroOneWebView.swift",
