@@ -1,12 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name         = "QliroOne"
-  spec.version      = "3.0.0-rc.1"
+  spec.version      = "3.0.0-rc.2"
   spec.summary      = "SDK for integrating QliroOne in your app"
   spec.description  = "QliroOne SDK - SDK for integrating QliroOne in your app"
   spec.homepage     = "https://www.qliro.com/sv-se"
   spec.license      = { :type => 'Apache License 2.0', :file => "LICENSE" }
   spec.author       = { "Qliro App Team" => "app@qliro.com" }
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "15.0"
+  spec.swift_version = "6.0"
   spec.source       = { :git => "https://github.com/Qliro/QliroOne-In-App.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "ios/QliroOne.xcframework"
   spec.frameworks = "UIKit", "WebKit"
