@@ -1,17 +1,22 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name QliroOne
+// swift-compiler-version: Apple Swift version 6.2.3 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name QliroOne
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Combine
+import Foundation
 import PassKit
 @_exported import QliroOne
 import SafariServices
+import Security
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc public class Address : ObjectiveC.NSObject, Swift.Codable {
+import os
+@objc final public class Address : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let firstName: Swift.String?
   @objc final public let lastName: Swift.String?
   @objc final public let street: Swift.String?
@@ -20,16 +25,22 @@ import _SwiftConcurrencyShims
   @objc final public let postalCode: Swift.String?
   @objc final public let isMasked: Swift.Bool
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-@objc public enum CheckoutState : Swift.Int {
+@objc public enum CheckoutState : Swift.Int, Swift.Sendable {
   case idle = 0
   case loading = 1
   case ready = 2
   case paymentInProgress = 3
   case completed = 4
   case error = 5
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(value: Swift.String)
+  #endif
+  public var value: Swift.String {
+    get
+  }
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
   #endif
@@ -38,17 +49,17 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@objc public class Customer : ObjectiveC.NSObject, Swift.Codable {
+@objc final public class Customer : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let email: Swift.String?
   @objc final public let mobileNumber: Swift.String?
   @objc final public let address: QliroOne.Address?
   @objc final public let personalNumber: Swift.String?
   @objc final public let organizationNumber: Swift.String?
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-@objc public enum Module : Swift.Int, Swift.RawRepresentable {
+@objc public enum Module : Swift.Int, Swift.RawRepresentable, Swift.Sendable {
   case HEADER
   case TOTAL_PRICE
   case CUSTOMER_DETAILS
@@ -61,167 +72,251 @@ import _SwiftConcurrencyShims
   public init?(rawValue: QliroOne.Module.RawValue)
   #endif
 }
-@objc public class Order : ObjectiveC.NSObject, Swift.Codable {
+@objc final public class Order : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let merchantUpdateVersion: Swift.String?
   @objc final public let totalPrice: Swift.Double
   @objc final public let orderItems: [QliroOne.OrderItem]
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-@objc public class OrderItem : ObjectiveC.NSObject, Swift.Codable {
+@objc final public class OrderItem : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let merchantReference: Swift.String
   @objc final public let pricePerItemIncVat: Swift.Double
   @objc final public let quantity: Swift.Int
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-@objc public class PaymentMethod : ObjectiveC.NSObject, Swift.Codable {
+@objc final public class PaymentMethod : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let method: Swift.String?
   @objc final public let subtype: Swift.String?
   @objc final public let price: Swift.Double
   @objc final public let priceExVat: Swift.Double
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-@objc public class PurchaseRedirectOptions : ObjectiveC.NSObject, Swift.Codable {
+@objc final public class PurchaseRedirectOptions : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let merchantConfirmationUrl: Swift.String
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public protocol QliroOneActions {
-  func addSessionExpiredCallback()
-  func removeSessionExpiredCallback()
-  func lock()
-  func unlock()
-  func addOrderUpdateCallback()
-  func removeOrderUpdateCallback()
-  func enableCheckoutScrolling(enabled: Swift.Bool)
-  func excludeResultModules(modules: [QliroOne.Module])
-  func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
+@_Concurrency.MainActor public protocol QliroOneActions {
+  @_Concurrency.MainActor func addSessionExpiredCallback()
+  @_Concurrency.MainActor func removeSessionExpiredCallback()
+  @_Concurrency.MainActor func lock()
+  @_Concurrency.MainActor func unlock()
+  @_Concurrency.MainActor func addOrderUpdateCallback()
+  @_Concurrency.MainActor func removeOrderUpdateCallback()
+  @_Concurrency.MainActor func enableCheckoutScrolling(enabled: Swift.Bool)
+  @_Concurrency.MainActor func excludeResultModules(modules: [QliroOne.Module])
+  @_Concurrency.MainActor func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class QliroOneCheckout : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency public var qliroOneListener: (any QliroOne.QliroOneListener)?
-  @objc @_Concurrency.MainActor @preconcurrency final public let webView: QliroOne.QliroOneWebView
-  @objc @_Concurrency.MainActor @preconcurrency public var applePayMerchantId: Swift.String? {
+@_Concurrency.MainActor public struct QliroOneCallbacks {
+  @_Concurrency.MainActor public var onCheckoutLoaded: (() -> Swift.Void)?
+  @_Concurrency.MainActor public var onCustomerInfoChanged: ((_ customer: QliroOne.Customer) -> Swift.Void)?
+  @_Concurrency.MainActor public var onCustomerDeauthenticating: (() -> Swift.Void)?
+  @_Concurrency.MainActor public var onPaymentMethodChanged: ((_ paymentMethod: QliroOne.PaymentMethod) -> Swift.Void)?
+  @_Concurrency.MainActor public var onPaymentDeclined: ((_ declineReason: Swift.String, _ declineReasonMessage: Swift.String?) -> Swift.Void)?
+  @_Concurrency.MainActor public var onPaymentProcessStart: (() -> Swift.Void)?
+  @_Concurrency.MainActor public var onPaymentProcessEnd: (() -> Swift.Void)?
+  @_Concurrency.MainActor public var onSessionExpired: (() -> Swift.Void)?
+  @_Concurrency.MainActor public var onShippingMethodChanged: ((_ shipping: QliroOne.Shipping) -> Swift.Void)?
+  @_Concurrency.MainActor public var onShippingPriceChanged: ((_ newShippingPrice: Swift.Double, _ newTotalShippingPrice: Swift.Double) -> Swift.Void)?
+  @_Concurrency.MainActor public var onOrderUpdated: ((_ order: QliroOne.Order) -> Swift.Void)?
+  @_Concurrency.MainActor public var makePaymentRequest: ((_ paymentData: [Swift.String : Any]?) -> Swift.Void)?
+  @_Concurrency.MainActor public var onCompletePurchaseRedirect: ((_ options: QliroOne.PurchaseRedirectOptions) -> Swift.Void)?
+  @_Concurrency.MainActor public var onCheckoutHeightChanged: ((_ height: Swift.Int) -> Swift.Void)?
+  @_Concurrency.MainActor public var onClosePopup: (() -> Swift.Void)?
+  @_Concurrency.MainActor public var onError: ((_ code: Swift.String, _ message: Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor public var onLog: ((_ level: Swift.String, _ message: Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor public var onStateChanged: ((_ state: Swift.String, _ previousState: Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor public var onTelemetryEvent: ((_ name: Swift.String, _ durationMs: Swift.Int?, _ metadata: [Swift.String : Swift.String]?) -> Swift.Void)?
+  @_Concurrency.MainActor public init()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @objc public class QliroOneCheckout : UIKit.UIView {
+  @objc @_Concurrency.MainActor weak public var qliroOneListener: (any QliroOne.QliroOneListener)? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor @preconcurrency public var isScrollEnabled: Swift.Bool {
+  @objc @_Concurrency.MainActor public var applePayMerchantId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor public static var limitsNavigationsToAppBoundDomains: Swift.Bool
+  @objc @_Concurrency.MainActor public var additionalAllowedUrlSchemes: [Swift.String] {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor public var checkoutState: QliroOne.CheckoutState {
+    get
+  }
+  @objc @_Concurrency.MainActor public var loadTimeoutMs: Swift.Int
+  @objc @_Concurrency.MainActor public var isDebugEnabled: Swift.Bool
+  @objc @_Concurrency.MainActor public var isScrollEnabled: Swift.Bool {
     @objc get
     @objc set
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc @_Concurrency.MainActor @preconcurrency public init(reactNativeSDKVersion: Swift.String?)
+  @objc @_Concurrency.MainActor public init(reactNativeSDKVersion: Swift.String?)
   #endif
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @objc deinit
-}
-extension QliroOne.QliroOneCheckout : UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
-}
-extension QliroOne.QliroOneCheckout : PassKit.PKPaymentAuthorizationControllerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationController(_ controller: PassKit.PKPaymentAuthorizationController, didAuthorizePayment payment: PassKit.PKPayment, handler completion: @escaping (PassKit.PKPaymentAuthorizationResult) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func paymentAuthorizationControllerDidFinish(_ controller: PassKit.PKPaymentAuthorizationController)
-}
-extension QliroOne.QliroOneCheckout {
-  @_Concurrency.MainActor @preconcurrency public func openSafeBrowser(url: Foundation.URL)
-}
-extension QliroOne.QliroOneCheckout : SafariServices.SFSafariViewControllerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
 }
 @objc extension QliroOne.QliroOneCheckout {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func loadOrderHtml(html: Swift.String)
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func dismissSafariViewController()
+  @objc nonisolated dynamic public func loadOrderHtml(html: Swift.String)
+  @objc @_Concurrency.MainActor dynamic public func dismissSafariViewController()
 }
-@objc extension QliroOne.QliroOneCheckout : QliroOne.QliroOneActions {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func addSessionExpiredCallback()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func removeSessionExpiredCallback()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func addOrderUpdateCallback()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func removeOrderUpdateCallback()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func lock()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func unlock()
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func enableCheckoutScrolling(enabled: Swift.Bool)
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func excludeResultModules(modules: [Swift.String])
-  @nonobjc @_Concurrency.MainActor @preconcurrency public func excludeResultModules(modules: [QliroOne.Module])
+extension QliroOne.QliroOneCheckout : QliroOne.QliroOneActions {
+  @objc @_Concurrency.MainActor dynamic public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
+  @objc @_Concurrency.MainActor dynamic public func addSessionExpiredCallback()
+  @objc @_Concurrency.MainActor dynamic public func removeSessionExpiredCallback()
+  @objc @_Concurrency.MainActor dynamic public func addOrderUpdateCallback()
+  @objc @_Concurrency.MainActor dynamic public func removeOrderUpdateCallback()
+  @objc @_Concurrency.MainActor dynamic public func lock()
+  @objc @_Concurrency.MainActor dynamic public func unlock()
+  @objc @_Concurrency.MainActor dynamic public func enableCheckoutScrolling(enabled: Swift.Bool)
+  @objc @_Concurrency.MainActor dynamic public func excludeResultModules(modules: [Swift.String])
+  @nonobjc @_Concurrency.MainActor public func excludeResultModules(modules: [QliroOne.Module])
 }
-extension QliroOne.QliroOneCheckout : QliroOne.QliroOneListener {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onCheckoutHeightChanged(height: Swift.Int)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onPaymentMethodChanged(paymentMethod: QliroOne.PaymentMethod)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onPaymentProcessStart()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func makePaymentRequest(paymentData: [Swift.String : Any]?)
-  #endif
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onPaymentProcessEnd()
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onSessionExpired()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onPaymentDeclined(declineReason: Swift.String, declineReasonMessage: Swift.String?)
-  #endif
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onShippingMethodChanged(shipping: QliroOne.Shipping)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onShippingPriceChanged(newShippingPrice: Swift.Double, newTotalShippingPrice: Swift.Double)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onOrderUpdated(order: QliroOne.Order)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onCheckoutLoaded()
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onCustomerInfoChanged(customer: QliroOne.Customer)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onCustomerDeauthenticating()
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onClosePopup()
+extension QliroOne.QliroOneCheckout {
+  @nonobjc @_Concurrency.MainActor public func setCallbacks(_ configure: (inout QliroOne.QliroOneCallbacks) -> Swift.Void)
+  @nonobjc @_Concurrency.MainActor public func setCallbacks(_ callbacks: QliroOne.QliroOneCallbacks)
+  @nonobjc @_Concurrency.MainActor public func removeCallbacks()
 }
-@objc public protocol QliroOneListener {
-  @objc func onCheckoutLoaded()
-  @objc func onCustomerInfoChanged(customer: QliroOne.Customer)
-  @objc func onCustomerDeauthenticating()
-  @objc func onPaymentMethodChanged(paymentMethod: QliroOne.PaymentMethod)
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc func onPaymentDeclined(declineReason: Swift.String, declineReasonMessage: Swift.String?)
-  #endif
-  @objc func onPaymentProcessStart()
-  @objc func onPaymentProcessEnd()
-  @objc func onSessionExpired()
-  @objc func onShippingMethodChanged(shipping: QliroOne.Shipping)
-  @objc func onShippingPriceChanged(newShippingPrice: Swift.Double, newTotalShippingPrice: Swift.Double)
-  @objc func onOrderUpdated(order: QliroOne.Order)
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc func makePaymentRequest(paymentData: [Swift.String : Any]?)
-  #endif
-  @objc func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
-  @objc optional func onCheckoutHeightChanged(height: Swift.Int)
-  @objc optional func onClosePopup()
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class QliroOneWebView : WebKit.WKWebView {
+@_Concurrency.MainActor final public class QliroOneCheckoutController : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($state) @_Concurrency.MainActor final public var state: QliroOne.CheckoutState {
+    get
+  }
+  @_Concurrency.MainActor final public var $state: Combine.Published<QliroOne.CheckoutState>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($contentHeight) @_Concurrency.MainActor final public var contentHeight: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor final public var $contentHeight: Combine.Published<CoreFoundation.CGFloat>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor public init()
+  @_Concurrency.MainActor final public func addSessionExpiredCallback()
+  @_Concurrency.MainActor final public func removeSessionExpiredCallback()
+  @_Concurrency.MainActor final public func lock()
+  @_Concurrency.MainActor final public func unlock()
+  @_Concurrency.MainActor final public func addOrderUpdateCallback()
+  @_Concurrency.MainActor final public func removeOrderUpdateCallback()
+  @_Concurrency.MainActor final public func enableCheckoutScrolling(enabled: Swift.Bool)
+  @_Concurrency.MainActor final public func excludeResultModules(_ modules: [QliroOne.Module])
+  @_Concurrency.MainActor final public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
+  @_Concurrency.MainActor final public func dismissSafariViewController()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-extension QliroOne.QliroOneWebView : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
-}
-extension QliroOne.QliroOneWebView {
-  @_Concurrency.MainActor @preconcurrency public func loadSuccessUrl(url: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public func loadOrderHtml(html: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public func refreshSize()
-}
-extension QliroOne.QliroOneWebView : QliroOne.QliroOneActions {
-  @_Concurrency.MainActor @preconcurrency public func addSessionExpiredCallback()
-  @_Concurrency.MainActor @preconcurrency public func removeSessionExpiredCallback()
-  @_Concurrency.MainActor @preconcurrency public func lock()
-  @_Concurrency.MainActor @preconcurrency public func unlock()
-  @_Concurrency.MainActor @preconcurrency public func addOrderUpdateCallback()
-  @_Concurrency.MainActor @preconcurrency public func removeOrderUpdateCallback()
-  @_Concurrency.MainActor @preconcurrency public func enableCheckoutScrolling(enabled: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency public func excludeResultModules(modules: [QliroOne.Module])
-  @_Concurrency.MainActor @preconcurrency public func onScroll(containerHeight: Swift.Int, offset: Swift.Int)
-}
-extension QliroOne.QliroOneWebView : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-}
-extension QliroOne.QliroOneWebView : WebKit.WKUIDelegate {
+@_Concurrency.MainActor @preconcurrency public struct QliroOneCheckoutView : SwiftUI.UIViewRepresentable {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor @preconcurrency public init(orderHtml: Swift.String, controller: QliroOne.QliroOneCheckoutController? = nil, contentHeight: SwiftUICore.Binding<CoreFoundation.CGFloat>? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: QliroOne.QliroOneCheckoutView.Context) -> QliroOne.QliroOneCheckout
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ checkout: QliroOne.QliroOneCheckout, context: QliroOne.QliroOneCheckoutView.Context)
+  @_Concurrency.MainActor @preconcurrency public static func dismantleUIView(_ checkout: QliroOne.QliroOneCheckout, coordinator: QliroOne.QliroOneCheckoutView.Coordinator)
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> QliroOne.QliroOneCheckoutView.Coordinator
+  public typealias Body = Swift.Never
+  public typealias UIViewType = QliroOne.QliroOneCheckout
+}
+extension QliroOne.QliroOneCheckoutView {
+  @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class Coordinator {
+    @objc deinit
+  }
+}
+extension QliroOne.QliroOneCheckoutView {
+  @_Concurrency.MainActor @preconcurrency public func onCheckoutLoaded(_ action: @escaping () -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onCustomerInfoChanged(_ action: @escaping (QliroOne.Customer) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onCustomerDeauthenticating(_ action: @escaping () -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onPaymentMethodChanged(_ action: @escaping (QliroOne.PaymentMethod) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func onPaymentDeclined(_ action: @escaping (_ declineReason: Swift.String, _ declineReasonMessage: Swift.String?) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func onPaymentProcessStart(_ action: @escaping () -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onPaymentProcessEnd(_ action: @escaping () -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onSessionExpired(_ action: @escaping () -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onShippingMethodChanged(_ action: @escaping (QliroOne.Shipping) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onShippingPriceChanged(_ action: @escaping (_ newShippingPrice: Swift.Double, _ newTotalShippingPrice: Swift.Double) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onOrderUpdated(_ action: @escaping (QliroOne.Order) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func onApplePayRequested(_ action: @escaping (_ paymentData: [Swift.String : Any]?) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func onCompletePurchaseRedirect(_ action: @escaping (QliroOne.PurchaseRedirectOptions) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onCheckoutHeightChanged(_ action: @escaping (Swift.Int) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onClosePopup(_ action: @escaping () -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onError(_ action: @escaping (_ code: Swift.String, _ message: Swift.String) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onLog(_ action: @escaping (_ level: Swift.String, _ message: Swift.String) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func onStateChanged(_ action: @escaping (_ state: Swift.String, _ previousState: Swift.String) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func onTelemetryEvent(_ action: @escaping (_ name: Swift.String, _ durationMs: Swift.Int?, _ metadata: [Swift.String : Swift.String]?) -> Swift.Void) -> QliroOne.QliroOneCheckoutView
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func callbacks(_ callbacks: QliroOne.QliroOneCallbacks) -> QliroOne.QliroOneCheckoutView
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func applePayMerchantId(_ merchantId: Swift.String?) -> QliroOne.QliroOneCheckoutView
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func scrollsContent(_ enabled: Swift.Bool) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func scrollsToSelectedOption(_ enabled: Swift.Bool) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func loadTimeout(milliseconds: Swift.Int) -> QliroOne.QliroOneCheckoutView
+  @_Concurrency.MainActor @preconcurrency public func debugLogging(_ enabled: Swift.Bool) -> QliroOne.QliroOneCheckoutView
+}
+@objc public enum QliroOneErrorCode : Swift.Int, Swift.Sendable {
+  case loadFailed = 0
+  case checkoutLoadTimeout = 1
+  case openUrlFailed = 2
+  case parseError = 3
+  case httpError = 4
+  case webViewTerminated = 5
+  case untrustedOrigin = 6
+  public var isFatal: Swift.Bool {
+    get
+  }
+  public var value: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(value: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor @objc public protocol QliroOneListener {
+  @objc @_Concurrency.MainActor func onCheckoutLoaded()
+  @objc @_Concurrency.MainActor func onCustomerInfoChanged(customer: QliroOne.Customer)
+  @objc @_Concurrency.MainActor func onCustomerDeauthenticating()
+  @objc @_Concurrency.MainActor func onPaymentMethodChanged(paymentMethod: QliroOne.PaymentMethod)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor func onPaymentDeclined(declineReason: Swift.String, declineReasonMessage: Swift.String?)
+  #endif
+  @objc @_Concurrency.MainActor func onPaymentProcessStart()
+  @objc @_Concurrency.MainActor func onPaymentProcessEnd()
+  @objc @_Concurrency.MainActor func onSessionExpired()
+  @objc @_Concurrency.MainActor func onShippingMethodChanged(shipping: QliroOne.Shipping)
+  @objc @_Concurrency.MainActor func onShippingPriceChanged(newShippingPrice: Swift.Double, newTotalShippingPrice: Swift.Double)
+  @objc @_Concurrency.MainActor func onOrderUpdated(order: QliroOne.Order)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor func makePaymentRequest(paymentData: [Swift.String : Any]?)
+  #endif
+  @objc @_Concurrency.MainActor func onCompletePurchaseRedirect(options: QliroOne.PurchaseRedirectOptions)
+  @objc @_Concurrency.MainActor optional func onCheckoutHeightChanged(height: Swift.Int)
+  @objc @_Concurrency.MainActor optional func onClosePopup()
+  @objc @_Concurrency.MainActor optional func onError(code: Swift.String, message: Swift.String)
+  @objc @_Concurrency.MainActor optional func onLog(level: Swift.String, message: Swift.String)
+  @objc @_Concurrency.MainActor optional func onStateChanged(state: Swift.String, previousState: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor optional func onTelemetryEvent(name: Swift.String, durationMs: Foundation.NSNumber?, metadata: [Swift.String : Swift.String]?)
   #endif
 }
-@objc public class Shipping : ObjectiveC.NSObject, Swift.Codable {
+@objc final public class Shipping : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
   @objc final public let method: Swift.String?
   @objc final public let secondaryOption: Swift.String?
   @objc final public let additionalShippingServices: [Swift.String]?
@@ -231,11 +326,18 @@ extension QliroOne.QliroOneWebView : WebKit.WKUIDelegate {
   @objc final public let totalShippingPriceExVat: Swift.Double
   @objc final public let accessCode: Swift.String?
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension QliroOne.CheckoutState : Swift.Equatable {}
 extension QliroOne.CheckoutState : Swift.Hashable {}
 extension QliroOne.CheckoutState : Swift.RawRepresentable {}
 extension QliroOne.Module : Swift.Equatable {}
 extension QliroOne.Module : Swift.Hashable {}
+extension QliroOne.QliroOneCallbacks : Swift.Sendable {}
+extension QliroOne.QliroOneCheckoutController : Swift.Sendable {}
+extension QliroOne.QliroOneCheckoutView : Swift.Sendable {}
+extension QliroOne.QliroOneCheckoutView.Coordinator : Swift.Sendable {}
+extension QliroOne.QliroOneErrorCode : Swift.Equatable {}
+extension QliroOne.QliroOneErrorCode : Swift.Hashable {}
+extension QliroOne.QliroOneErrorCode : Swift.RawRepresentable {}
